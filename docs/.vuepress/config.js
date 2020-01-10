@@ -13,6 +13,35 @@ module.exports = {
     ],
     themeConfig: {
         nav: [ ],
+        sidebar: {
+            '/': [{
+                title: "Introduction",
+                collapsable: false,
+                children: [
+                    'a1_goals_objectives',
+                    'a2_publication',
+                    'a3_contributing',
+                ],
+            }, {
+                title: "Specification",
+                collapsable: false,
+                children: [
+                    'b1_requirements',
+                    'b2_topology',
+                    'b3_control',
+                    'b4_communications',
+                ],
+            }, {
+                title: "Implementation",
+                collapsable: false,
+                children: [
+                    'c1_devices',
+                    'c2_infrastructure',
+                    'c3_control',
+                    'c4_test-cases',
+                ],
+            }]
+        },
         // if your docs are in a different repo from your main project:
         docsRepo: 'dc-grid/dc-grid.github.io',
         // if your docs are not at the root of the repo:

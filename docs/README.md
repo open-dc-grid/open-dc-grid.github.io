@@ -1,8 +1,8 @@
 # Welcome to the open DC grid working group
 
-::: warning ToDo
-Executive summary of ideas and objectivs, 2-3 sentences.
-:::
+This document specifies core requirements and suggestions for implementation of a DC grid to interconnect multiple energy sources and sinks. It can be considered a grid code for a low-power separated extra-low voltage (SELV) DC grid.
+
+The specification is manufacturer-agnostic. Only the interfaces at grid level will be defined to allow seamless integration of devices made by different manufacturers.
 
 <center>
 
