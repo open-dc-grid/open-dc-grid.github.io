@@ -31,7 +31,8 @@ deploy:
     fqdn: dc-grid.github.io
     skip-cleanup: true
     github-token: $GH_REPO_TOKEN
-    local_dir: gh-pages
+    local_dir: master
+    target_branch: master
     keep-history: false
     on:
         all_branches: true
