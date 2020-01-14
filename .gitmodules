@@ -1,0 +1,6 @@
+[submodule "docs/standard"]
+	path = docs/standard
+	url = https://github.com/open-dc-grid/standard
+[submodule "docs/implementation"]
+	path = docs/implementation
+	url = https://github.com/open-dc-grid/implementation

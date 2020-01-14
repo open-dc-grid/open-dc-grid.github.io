@@ -12,35 +12,47 @@ module.exports = {
           }],
     ],
     themeConfig: {
-        nav: [ ],
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Standard', link: '/standard/' },
+            { text: 'Implementation', link: '/implementation/' },
+        ],
         sidebar: {
-            '/': [{
-                title: "Introduction",
+            '/standard/': [{
+                title: "Standard",
                 collapsable: false,
                 children: [
-                    'a1_goals_objectives',
-                    'a2_publication',
-                    'a3_contributing',
-                ],
-            }, {
-                title: "Specification",
-                collapsable: false,
-                children: [
-                    'b1_requirements',
-                    'b2_topology',
-                    'b3_control',
-                    'b4_communications',
-                ],
-            }, {
+                    '1_scope',
+                    //'2_normative_references',
+                    '3_terms_definitions',
+                    '4_requirements',
+                    '5_topology',
+                    '6_control',
+                    '7_communications',
+                    '8_test_cases',
+                ]
+            }],
+            '/implementation/': [{
                 title: "Implementation",
                 collapsable: false,
                 children: [
-                    'c1_devices',
-                    'c2_infrastructure',
-                    'c3_control',
-                    'c4_test-cases',
+                    '1_devices',
+                    '2_grid',
+                    '3_control',
                 ],
-            }]
+            }],
+            '/': [{
+                title: "Home",
+                collapsable: false,
+                children: [
+                    //['', 'Welcome'],
+                    'meetings',
+                    'contributing',
+                    'references',
+                    'participants',
+                    //'about',
+                ]
+            }],
         },
         // if your docs are in a different repo from your main project:
         docsRepo: 'open-dc-grid/open-dc-grid.github.io',
