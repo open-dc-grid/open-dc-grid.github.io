@@ -43,7 +43,7 @@ module.exports = {
             }]
         },
         // if your docs are in a different repo from your main project:
-        docsRepo: 'dc-grid/dc-grid.github.io',
+        docsRepo: 'open-dc-grid/open-dc-grid.github.io',
         // if your docs are not at the root of the repo:
         docsDir: 'docs',
         // if your docs are in a specific branch (defaults to 'master'):

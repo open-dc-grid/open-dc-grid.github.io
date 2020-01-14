@@ -28,7 +28,7 @@ notifications:
 
 deploy:
     provider: pages
-    fqdn: dc-grid.github.io
+#    fqdn: open-dc-grid.github.io
     skip-cleanup: true
     github-token: $GH_REPO_TOKEN
     local_dir: master
