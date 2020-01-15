@@ -22,6 +22,7 @@ Non-US attendees are strongly encouraged to use the online version of freeconfer
 
 ### 2020-01-14 Meetng
 [Meeting recording](https://fccdl.in/i6xPDMIKES).
-[Meeting presentation](./meetingContent/20200114Meeting/20200114MeetingRev04.pdf)
+
+[Meeting presentation](./20200114MeetingRev04.pdf)
 
     
