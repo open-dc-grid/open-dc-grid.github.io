@@ -18,6 +18,10 @@ Join the online meeting: [join.freeconferencecall.com/jlgula](https://join.freec
 
 Non-US attendees are strongly encouraged to use the online version of freeconferencecall either via the browser or via the downloadable app rather trying to use telephone connections due to recent changes in US regulations to prevent spam calls that may block freeconferencecall telephone numbers from connecting.
 
-## Recordings of previous meetings
+## Content of previous meetings
 
-ToDo
+### 2020-01-14 Meetng
+[Meeting recording](https://fccdl.in/i6xPDMIKES).
+[Meeting presentation](./meetingContent/20200114Meeting/20200114MeetingRev04.pdf)
+
+    
