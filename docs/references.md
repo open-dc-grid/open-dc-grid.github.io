@@ -13,13 +13,12 @@ This section is just getting started, filling more as we have the time and energ
 34 Press, 2014. Another good reference about the microgrids.
 
 ## Microgrid Architecture
-[*DC Local Power Distribution with
-Microgrids and Nanogrid*]Nordman, B, and K. Christensen, First International Conference on DC Microgrids, Atlanta, GA, June 2015. Bruce Nordman was an early advocate and innovator for the kinds of microgrids this project is working toward. [Bruce's website](http://nordman.lbl.gov/) is a trove of papers, talks and related material.
+[*DC Local Power Distribution with Microgrids and Nanogrid*](https://drive.google.com/open?id=0B8B9XW6B7prlczMzOE1QWHFXNjA). Nordman, B, and K. Christensen, First International Conference on DC Microgrids, Atlanta, GA, June 2015. Bruce Nordman was an early advocate and innovator for the kinds of microgrids this project is working toward. [Bruce's website](http://nordman.lbl.gov/) is a trove of papers, talks and related material.
 
-### Related Microgrid Standards
+## Related Microgrid Standards
 <a name="IEEEP2030.10"></a>[IEEE P2030.10 Draft Trial-Use Standard for DC Microgrids for Rural and Remote Electricity Access Applications](https://site.ieee.org/sagroups-2030-10/) Describes the requirements to implement an unmanaged grid operating at a nominal 48V. Includes external wiring recommendations and safety concerns. One of the standards this project is attempting to harmonize with. P2030.10, in turn, is harmonized with [ISO 21780](#ISO21780).
 
-[IEEE P2030.10.1 Standard for Electricity Access Requirements with Safety Extra Low Voltage (SELV) DC for Tier ll and Tier lll of Energy Sector Management Assistance Program (ESMAP) Multi-tier Framework for Household Electricity Supply](https://standards.ieee.org/project/2030_10_1.html) An IEEE project to define household distribution of power at a nominal 48V. Based on IS16711.
+[IEEE P2030.10.1 Standard for Electricity Access Requirements with Safety Extra Low Voltage (SELV) DC for Tier ll and Tier lll of Energy Sector Management Assistance Program (ESMAP) Multi-tier Framework for Household Electricity Supply](https://standards.ieee.org/project/2030_10_1.html) An IEEE project to define household distribution of power at a nominal 48V. Based on [IS 16711](#IS16711).
 
 <a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://www.services.bis.gov.in:8071/php/BIS/bisconnect/pow/is_details?IDS=MjI3MTI%3D) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
 
