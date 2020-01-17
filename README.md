@@ -1,4 +1,4 @@
-# 48V DC grid specification
+# Open DC Grid web site
 
 This repository hosts the open DC grid working group website, built with VuePress.
 
