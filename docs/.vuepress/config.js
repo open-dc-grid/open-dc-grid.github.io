@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Managed 48V DC Minigrid',
-    description: 'Open specification for a low voltage DC grid',
+    title: 'Open DC Grid',
+    description: 'A low voltage DC microgrid defined as an open standard. Software and hardware reference designs freely available under open source. Join the project!',
     base: '/',
     plugins: [
         'vuepress-plugin-export',
@@ -13,7 +13,7 @@ module.exports = {
     ],
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/' },
+            { text: 'Project', link: '/' },
             { text: 'Standard', link: '/standard/' },
             { text: 'Implementation', link: '/implementation/' },
         ],
@@ -42,7 +42,7 @@ module.exports = {
                 ],
             }],
             '/': [{
-                title: "Home",
+                title: "Project",
                 collapsable: false,
                 children: [
                     //['', 'Welcome'],
@@ -63,7 +63,7 @@ module.exports = {
         // defaults to false, set to true to enable
         editLinks: true,
         // custom text for edit link. Defaults to "Edit this page"
-        editLinkText: 'Propose modification on GitHub!',
+        editLinkText: 'GitHub',
 
         lastUpdated: 'Last Updated', // string | boolean
     }
