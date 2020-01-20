@@ -1,3 +1,7 @@
+---
+editLink: true
+---
+
 # References
 This section provides links to background information useful to understand this project and make progress on the standard and the reference implementations.
 

@@ -1,3 +1,7 @@
+---
+editLink: true
+---
+
 # Meetings
 
 ## Regular web conference
@@ -25,4 +29,4 @@ Non-US attendees are strongly encouraged to use the online version of freeconfer
 
 [Meeting presentation](./20200114MeetingRev04.pdf)
 
-    
+

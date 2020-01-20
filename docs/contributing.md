@@ -1,3 +1,7 @@
+---
+editLink: true
+---
+
 # Contributing Guideline
 
 We welcome every sort of contribution, from error reports to improvements of the document or entirely new ideas or chapters.
