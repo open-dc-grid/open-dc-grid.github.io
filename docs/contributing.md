@@ -2,7 +2,6 @@
 editLink: true
 ---
 
-# Contributing Guideline
 # How to Participate
 Development of the Open DC Grid Standard and the associated reference implementations is a collaborative effort driven by volunteers.
 We welcome anyone to offer ideas and technical contributions.
