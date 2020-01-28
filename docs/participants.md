@@ -2,7 +2,7 @@
 editLink: true
 ---
 
-# Participants
+# Team Members
 
 This list gives an overview of people and organizations who are currently actively participating in the standard development. Feel free to add yourself via [pull-request on GitHub](contributing.md).
 
@@ -10,7 +10,7 @@ This list gives an overview of people and organizations who are currently active
 
 Retired engineer interested in improving lives with DC grids and related technology. System architecture lead and primary author of IEEE draft standard [P2030.10 DC Microgrids for Rural and Remote Applications](https://site.ieee.org/sagroups-2030-10/). Cofounder of this open standard project with Martin Jäger.
 
-E-Mail: jlgula@papugh.com
+E-Mail: <a href="mailto:jlgula@papugh.com" target="_top">jlgula@papugh.com</a>
 
 ### Martin Jäger (Libre Solar)
 

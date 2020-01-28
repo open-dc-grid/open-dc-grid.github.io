@@ -28,5 +28,3 @@ Non-US attendees are strongly encouraged to use the online version of freeconfer
 [Meeting recording](https://fccdl.in/i6xPDMIKES).
 
 [Meeting presentation](./20200114MeetingRev04.pdf)
-
-

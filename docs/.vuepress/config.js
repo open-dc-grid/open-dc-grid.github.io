@@ -1,6 +1,16 @@
 module.exports = {
     title: 'Open DC Grid',
     description: 'A low voltage DC microgrid defined as an open standard. Software and hardware reference designs freely available under open source. Join the project!',
+    head: [
+      ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png"}],
+      ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png"}],
+      ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png"}],
+      ['link', { rel: "manifest", href: "/site.webmanifest"}],
+      ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
+      //['meta', { name: "msapplication-TileColor", content: "#3a0839"}],
+      //['meta', { name: "msapplication-config", content: "/assets/favicons/browserconfig.xml"}],
+      //['meta', { name: "theme-color", content: "#ffffff"}],
+    ],
     base: '/',
     plugins: [
         'vuepress-plugin-export',
@@ -12,6 +22,7 @@ module.exports = {
           }],
     ],
     themeConfig: {
+        //logo: '/apple-touch-icon.png',
         nav: [
             { text: 'Project', link: '/' },
             { text: 'Standard', link: '/standard/' },
@@ -46,10 +57,10 @@ module.exports = {
                 collapsable: false,
                 children: [
                     //['', 'Welcome'],
+                    ['contributing', 'How to Participate'],
                     'meetings',
-                    'contributing',
-                    'references',
-                    'participants',
+                    ['participants', 'Team Members'],
+                    'references'
                     //'about',
                 ]
             }],
