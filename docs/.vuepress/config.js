@@ -22,7 +22,7 @@ module.exports = {
           }],
     ],
     themeConfig: {
-        //logo: '/apple-touch-icon.png',
+        logo: '/apple-touch-icon.png',
         nav: [
             { text: 'Project', link: '/' },
             { text: 'Standard', link: '/standard/' },
