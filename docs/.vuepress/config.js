@@ -57,10 +57,11 @@ module.exports = {
                 collapsable: false,
                 children: [
                     //['', 'Welcome'],
+                    ['https://buttondown.email/jlgula','Subscribe'],
                     ['contributing', 'How to Participate'],
                     'meetings',
                     ['participants', 'Team Members'],
-                    'references'
+                    'references',
                     //'about',
                 ]
             }],

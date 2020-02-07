@@ -11,6 +11,11 @@ We welcome every sort of contribution, from error reports to improvements of the
 ## Contact us
 <a href="mailto:opendcgrid@gmail.com" target="_top"><img style="float: left;" src="./images/Letter.svg" hspace="0" width="80" height="40" alt="Open DC Grid Email"></img></a>You can contact us by email: <opendcgrid@gmail.com>
 
+## Subscribe to our newsletter
+<a href="https://buttondown.email/jlgula" target="_blank"><img style="float: left;" src="./images/news-2389226_1280.png" hspace="10" width="64" height="64" alt="Link to newsletter subscription page"></img></a>The project publishes
+a periodic newsletter about the latest developments. We promise not to
+spam you with too much news. You can [subscribe here](https://buttondown.email/jlgula). You can also browse the [full archive](https://buttondown.email/jlgula/archive) of past postings. Thanks to [Buttondown](https://buttondown.email/) for our mailing service.
+
 ## Attend a meeting
 <a href="https://join.freeconferencecall.com/jlgula" target="_blank"><img style="float: left;" src="./images/FreeConferenceCall.png" hspace="10" width="64" height="64" alt="Link to Freeconferencecall meeting page"></img></a>
 The project holds monthly web-based teleconferences using the conferencing service [freeconferencecall.com](https://www.freeconferencecall.com) to discuss the status and present new ideas.
