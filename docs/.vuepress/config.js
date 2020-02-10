@@ -33,14 +33,15 @@ module.exports = {
                 title: "Standard",
                 collapsable: false,
                 children: [
-                    '1_scope',
-                    //'2_normative_references',
+                    '0_introduction',
+                    '1_scope_and_purpose',
+                    '2_normative_references',
                     '3_terms_definitions',
-                    '4_requirements',
-                    '5_topology',
-                    '6_control',
-                    '7_communications',
-                    '8_test_cases',
+                    '4_system_architecture',
+                    '5_grid_communications',
+                    '6_48V_bus',
+                    '7_annex_wiring',
+                    '8_annex_bibliography',
                 ]
             }],
             '/implementation/': [{
