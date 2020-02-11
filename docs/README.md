@@ -3,9 +3,6 @@ editLink: true
 ---
 
 # Open DC Grid
-::: tip
-The next project teleconference will be Tuesday, February 11 at 15:00 UTC. Details on our [meetings page](./meetings). *Also* [subscribe](https://buttondown.email/jlgula) to our freshly launched newsletter.
-:::
 <center>
 
 ![Grid Overview](./images/grid-overview.svg)
