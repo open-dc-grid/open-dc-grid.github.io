@@ -22,6 +22,7 @@ Join the online meeting: [join.freeconferencecall.com/jlgula](https://join.freec
 
 Non-US attendees are strongly encouraged to use the online version of freeconferencecall either via the browser or via the downloadable app rather trying to use telephone connections due to recent changes in US regulations to prevent spam calls that may block freeconferencecall telephone numbers from connecting.
 
+A note for people using a telephone dial-in connection: you can mute/unmute by pressing \*6 on your keypad. Further instructions are available on the freeconferencecall web site [Participant Instructions](https://www.freeconferencecall.com/participant-instructions).
 ## Content of previous meetings
 
 ### 2020-01-14 Meeting
@@ -47,4 +48,13 @@ Non-US attendees are strongly encouraged to use the online version of freeconfer
 [Meeting recording](https://fccdl.in/1tFeDEKhoq).
 
 [Jim's presentation](./MeetingMaterials/20200414MeetingRev02.pdf)
+
+### 2020-05-12 Meeting
+[Meeting recording](https://fccdl.in/VHnO1ZNyZD).
+
+[Jim's presentation](./MeetingMaterials/20200512MeetingRev02.pdf)
+
+[Sijo's presentation](./MeetingMaterials/20200512MeetingAugustine.pdf)
+
+[Chris's presentation](./MeetingMaterials/20200512MeetingMoller.pdf)
 
