@@ -58,3 +58,9 @@ A note for people using a telephone dial-in connection: you can mute/unmute by p
 
 [Chris's presentation](./MeetingMaterials/20200512MeetingMoller.pdf)
 
+### 2020-06-09 Meeting
+[Meeting recording](https://fccdl.in/Gd5Fpo8Tvc).
+
+[Jim's presentation](./MeetingMaterials/20200609MeetingRev01.pdf)
+
+[Martin's presentation](./MeetingMaterials/20200609MeetingJager.pdf)
