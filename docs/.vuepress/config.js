@@ -39,9 +39,12 @@ module.exports = {
                     '3_terms_definitions',
                     '4_system_architecture',
                     '5_grid_communications',
-                    '6_48V_bus',
-                    '7_annex_wiring',
-                    '8_annex_bibliography',
+                    '6_12V_link',
+                    '7_48V_link',
+                    '8_annex_unmanaged_grid',
+                    '9_annex_wiring',
+                    '10_conformance_tests',
+                    '11_annex_bibliography',
                 ]
             }],
             '/implementation/': [{
