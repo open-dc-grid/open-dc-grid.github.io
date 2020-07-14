@@ -64,3 +64,14 @@ A note for people using a telephone dial-in connection: you can mute/unmute by p
 [Jim's presentation](./MeetingMaterials/20200609MeetingRev01.pdf)
 
 [Martin's presentation](./MeetingMaterials/20200609MeetingJager.pdf)
+
+### 2020-07-14 Meeting
+[Meeting recording](https://fccdl.in/Ba3lsKNqXS).
+
+[Garick's presentation](./MeetingMaterials/20200714_GOGLA_slides_for_ODG_meeting.pdf)
+
+[Jim's presentation](./MeetingMaterials/20200714_Open_DC_Grid_Meeting_Rev_01.pdf)
+
+
+
+
