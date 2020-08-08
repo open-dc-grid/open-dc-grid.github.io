@@ -10,19 +10,15 @@ Our regular conference call is the 2nd Tuesday of each month at 7AM PST (14:00 U
 
 **Contact information:**
 
-Dial-in number (US): (605) 313-4116
+Join the online meeting: [Zoom Meeting ID 875 1828 4403 - no password](https://us02web.zoom.us/j/87518284403)
 
-Access code: 759764#
+US Phone number: 408 638 0968 US (San Jose)  
+International dial-in numbers: [Find Local Zoom Number](https://us02web.zoom.us/u/kcufc3bAu6)
 
-International dial-in numbers: [fccdl.in/i/jlgula](https://fccdl.in/i/jlgula)
+A note for people using a telephone dial-in connection: you can mute/unmute by pressing \*6 on your keypad.
+Further instructions are available on the Zoom web site:
+[Joining a meeting by phone](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone).
 
-Online meeting ID: jlgula
-
-Join the online meeting: [join.freeconferencecall.com/jlgula](https://join.freeconferencecall.com/jlgula)
-
-Non-US attendees are strongly encouraged to use the online version of freeconferencecall either via the browser or via the downloadable app rather trying to use telephone connections due to recent changes in US regulations to prevent spam calls that may block freeconferencecall telephone numbers from connecting.
-
-A note for people using a telephone dial-in connection: you can mute/unmute by pressing \*6 on your keypad. Further instructions are available on the freeconferencecall web site [Participant Instructions](https://www.freeconferencecall.com/participant-instructions).
 ## Content of previous meetings
 
 ### 2020-01-14 Meeting
