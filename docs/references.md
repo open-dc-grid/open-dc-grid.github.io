@@ -26,7 +26,37 @@ This section is just getting started, filling more as we have the time and energ
 
 <a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://www.services.bis.gov.in:8071/php/BIS/bisconnect/pow/is_details?IDS=MjI3MTI%3D) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
 
+## Off-Grid Energy Access Organizations and Initiatives
+
+<a name="CLASP"></a>[CLASP](https://clasp.ngo/): An NGO focused on energy efficient appliances
+to minimize climate change and provide clean energy access. Closely affiliated with other organizations in this section
+including [Efficiency For Access](#EfficiencyForAccess) and [Verasol](#Verasol).
+
+<a name="EfficiencyForAccess"></a>[Efficiency For Access](https://efficiencyforaccess.org/): A coalition of NGOs that sponsors
+activities and funding to support energy access. Offers a [library of publications](https://efficiencyforaccess.org/publications)
+containing reports addressing various aspects of the energy access challenge.
+
+<a name="GOGLA"></a>[GOGLA - Global Off-Grid Lighting Association](https://www.gogla.org/): 
+Industry association for vendors participating in the off-grid solar industry. 
+Publishes market surveys and coordinates industry standards for interoperablity and quality assurance.
+In cooperation with [Lighting Global](#LightingGlobal), publishes its biannual 
+[Global Off-Grid Market Sales Report](https://www.gogla.org/global-off-grid-solar-market-report) 
+that provides a detailed breakdown of off-grid market sales
+
+<a name="LightingGlobal"></a>[Lighting Global](https://www.lightingglobal.org/): 
+World Bank initiative to promote off-grid lighting and electricity. 
+Maintains a [database of products](https://www.lightingglobal.org/products/) that have been tested according to well-defined standards. 
+The actual testing of these products has been spun off into a separate organization, [Verasol](#Verasol).
+Lighting Global has regional affiliates [Lighting Africa](https://www.lightingglobal.org/where-we-work/lighting-africa/)
+and [Lighting Asia](https://www.lightingglobal.org/where-we-work/lighting-asia/).
+
+<a name="Verasol"></a>[Verasol](https://verasol.org/): Organization focused on testing and quality assurance for the off-grid
+energy market, spun-off from [Lighting Global](#LightingGlobal). Products are tested against
+[IEC TS 62257-9-8](https://webstore.iec.ch/publication/62431), quality standards for pico-solar products and SHS kits
+derived from [Lighting Global](#LightingGlobal) testing procedures. Products that pass are issued a Verasol Certificate.
+
 ## Vehicle Electrical Standards and Systems
+
 When practical, this standard attempts to harmonize with existing standards for low voltage power distribution used in vehicles.
 
 <a name="ISO21780"></a>[ISO 21780 Road vehicles — Supply voltage of 48 V — Electrical requirements and tests](https://www.iso.org/standard/71607.html) One of the standards this project is intending to harmonize with. It defines functiona state across of range of operating voltages and tests needed to validate that a component will interoperate with other equipment in the vehicle. Based on [VDA 320](#VDA320).
@@ -39,4 +69,135 @@ LV 148 - A german auto industry standard for electrical components operating at 
 
 <a name="SAE563"></a>[SAE 563 Standard for 12 Volt Cigarette Lighters, Power Outlets, and Accessory Plugs](https://www.sae.org/standards/content/j563_200902/). The standard that formally describes the ubiquitous cigarette lighter outlet. A 12V link in the project needs to harmonize with devices designed for this outlet. See also [Wikipedia: Automobile auxiliary power outlet](https://en.wikipedia.org/wiki/Automobile_auxiliary_power_outlet).
 
-<a name="ISO4165"></a>[ISO 4165:2001 Electrical connections — Double-pole connection](https://www.iso.org/standard/33321.html). The standard that describes the electric outlet used on some European vehicles. Slightly smaller than the American cigarette lighter outlet described by [SAE 563](#SAE563). See also: [Wikipedia: ISO 4165](https://en.wikipedia.org/wiki/ISO_4165).
+<a name="ISO4165"></a>[ISO 4165:2001 Electrical connections — Double-pole connection](https://www.iso.org/standard/33321.html). 
+The standard that describes the electric outlet used on some European vehicles. Slightly smaller than the 
+American cigarette lighter outlet described by [SAE 563](#SAE563). See also: [Wikipedia: ISO 4165](https://en.wikipedia.org/wiki/ISO_4165).
+
+## Software Standards and Initiatives Related to ODG
+
+The following items are organized roughly by layer according to the [OSI model](https://en.wikipedia.org/wiki/OSI_model)
+but note that things don't always fall neatly into that model or span multiple layers.
+
+### Layer 1: Physical Layer
+
+<a name="6loWPAN"></a>
+[6loWPAN - Transmission of IPv6 over Low-Power Wireless Personal Area Networks (RFC 4944)](https://tools.ietf.org/html/rfc4944):
+This RFC addresses using IPv6 in resource constrained devices. It defines how to combine small 127-byte frames
+into larger packets. The RFC is oriented toward wireless networks but wired communications in resource constrained
+devices face many of the same issues and can use the same techniques. It is extended by [RFC 6282
+Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks](https://tools.ietf.org/html/rfc6282)
+that addresses header compression.
+
+<a name="LIN"></a>[LIN - Local Interconnect Network](https://en.wikipedia.org/wiki/Local_Interconnect_Network):
+A system for transmitting low-speed data using flat (not twisted pair) wiring. LIN was original designed
+for use as a less expensive alternative to the CAN bus in automobiles. It is formally defined by a series of
+ISO standards ([ISO-17987](https://www.iso.org/standard/61222.html)) that include link-layer protocols
+but good information about its electrical properties is available from semiconductor vendors who offer low-cost transceivers.
+ODG is primarily interested the use of these transceivers that implement the physical layer.
+
+<a name="TI-LIN"></a>[LIN Protocol and Physical Layer Requirements - TI SSLA383-2018](https://www.ti.com/lit/an/slla383/slla383.pdf):
+This TI application report provides good details about the LIN physical layer.
+
+### Layer 2: Link Layer
+
+<a name="OpenPAYGO Link"></a>[OpenPAYGO Link](https://www.paygops.com/openpaygolink): 
+An initiative by [Solaris](https://www.solarisoffgrid.com/) to define a system for
+low-cost communications between appliances and solar home systems based on a LIN
+physical layer but supporting dynamic address assignment.
+Solaris presented an overview during the 
+[ODG meeting of August 11, 2020](https://open-dc-grid.org/meetings.html#_2020-08-11-meeting).   
+
+### Layer 3: Network Layer
+
+<a name="IPV6"></a>[IPv6 - Internet Protocol version 6](https://en.wikipedia.org/wiki/IPv6): 
+The replacement for 32-bit IPv4 that, among other things,
+extends the address to 128-bits so that every device can have its own unique address in the global internet
+These addresses are defined in [RFC 4291](https://tools.ietf.org/html/rfc4291) but there are many related RFCs.
+Some ODG functions operate without any network or transport layer
+
+### Layer 4: Transport Layer
+
+<a name="UDP"></a>[UDP - User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol): One of the
+foundational protocols of the internet (along with [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)) 
+used to send raw packets without guarantees of delivery.
+It supports both unicast and multicast transmission. The original definition is [RFC 768](https://tools.ietf.org/html/rfc768)
+that dates back to 1980. Much ODG traffic is conceptually carried in UDP packets but much of it may be elided
+through various optimizations.
+
+### Layer 5: Session Layer
+
+<a name="CoAP"></a>[Constrained Application Protocol (RFC 7252)](https://tools.ietf.org/html/rfc7252): A transport protocol
+specialized for use in resource constrained devices. It implements a REST semantics of GET, PUT etc similar to
+the similar HTML operations with an exponential backoff retry. The RFC describes this as a transport protocol because it can provide
+delivery guarantees but it typically rides on [UDP](#UDP) but other transport bindings are possible including TCP.
+
+### Layer 6: Presentation Layer
+
+<a name="CBOR"></a>[CBOR - Concise Binary Object Representation](https://en.wikipedia.org/wiki/CBOR): A data interchange
+format based on [JSON](#JSON) but binary encoded for a more concise representation. It is formally
+defined in [RFC 7049](https://tools.ietf.org/html/rfc7049).
+
+<a name="JSON"></a>[JSON - Javascript Object Notation](https://en.wikipedia.org/wiki/JSON): A data interchange format
+based on human-readable text used widely in the internet and in ODG tools and device resources. It is formally
+defined in [RFC 8259](https://tools.ietf.org/html/rfc8259).
+
+### Layer 7: Application Layer
+
+<a name="AngazaNexusChannel"></a>[Angaza Nexus Channel](https://angaza.github.io/nexus/channel): 
+A transport-agnostic application layer for secure communication between resource-constrained devices
+particularly focused on implementing PAYGO (pay-as-you-go) in resource constrained devices.
+Nexus channel implements a subset of [OCF](#OCF), split between the core which implements the resource model 
+and the full channel that addresses security. It is an MIT-licensed open source project with
+a [GitHub repository](https://github.com/angaza/nexus-embedded). 
+Angaza presented an overview during the [ODG meeting of August 11, 2020](https://open-dc-grid.org/meetings.html#_2020-08-11-meeting).
+
+<a name="IEEE2030-5"></a>[IEEE 2030.5-2018 - IEEE Standard for Smart Energy Profile Application Protocol](https://standards.ieee.org/standard/2030_5-2018.html): 
+A transport-agnostic protocol for the smart metering and automation of demand/response and load control.
+Similar to [OCF](#OCF), IEEE 2030.5 uses REST to manipulate resources but in this case the methods are HTML
+and the resources are represented in XML. The models are based on those of [SunSpec](http://sunspec.org/wp-content/uploads/2019/08/inverter-control-final.pdf)
+/[IEC 61850](https://en.wikipedia.org/wiki/IEC_61850) and have origins
+in [Zigbee SEP 2.0](https://www.energy.gov/sites/prod/files/2014/05/f16/CSEP%20Overview%20%28ZigBee%20Allinace%29_0.pdf). 
+IEEE 2030.5 is the "default protocol" for [California Rule 21](https://www.cpuc.ca.gov/Rule21/) 
+on distributed energy resources
+with the intent that it be implemented by smart inverters attached to the public grid or by intermediate aggregators
+where IEEE 2030.5 is the communications protocol to access the inverter functionality defined by 
+[IEEE 1547](https://standards.ieee.org/standard/1547-2018.html).
+[Modbus](#Modbus) is an alternative.
+
+<a name="IoTivity"></a>[IoTivity](https://iotivity.org/): An Apache-2.0 licensed open source reference implementation of [OCF](#OCF) available
+via a [GitHub project](https://github.com/iotivity). It includes a variety tools in various repositories but the
+primary implementation [iotivity-lite](https://github.com/iotivity/iotivity-lite) is in C 
+and includes a light-weight [CoAP](#CoAP) implementation.
+
+<a name="Modbus"></a>[Modbus](https://en.wikipedia.org/wiki/Modbus): A family of communications protocols
+that span all layers of the OSI model. At its core, Modbus is a simple get/set protocol for basic
+resources are identified by proprietary station addresses and function codes. The original
+devices were Modicon (Schneider) programmable logic controllers but the protocol
+has been applied to many other devices. Of most interest to ODG is a 
+[set of Modbus specifications](https://sunspec.org/sunspec-modbus-specifications/)
+from the [SunSpec Alliance](https://sunspec.org/) that define how to query and manipulate
+a grid-connected inverter. The latest versions of these standards are semantically
+equivalent to the [IEEE 2030.5](#IEEE2030-5) resources.
+
+<a name="OCF"></a>[OCF - Open Connectivity Foundation](https://openconnectivity.org/): A multi-vendor initiative to define
+an application layer protocol to manipulate IOT devices based on rigidly defined resource models that are manipulated
+using REST-type transactions. The OCF standard documents have been submitted for release as an ISO standard
+but currently can be [downloaded from the OCF web site](https://openconnectivity.org/developer/specifications/).
+The models themselves can be downloaded from [oneIoTa.org](#oneIoTa).
+
+<a name="oneIoTa"></a>[oneIoTa](https://oneiota.org/): A repository of [OCF](#OCF) device models.
+These models are JSON files using the schema defined by the [OpenAPI Specification](https://swagger.io/specification/)
+which can be read by the [Swagger](https://swagger.io/) tool to generate API code in various languages.
+In some cases these models define a complete API for a device. More commonly a device is expected
+to combine various models like [BinarySwitch](https://oneiota.org/revisions/6149) - a very long-winded
+way to describe an on-off switch.
+
+<a name="ThingSet"></a>[ThingSet](https://libre.solar/thingset/): A transport agnostic protocol for the setting of things
+that encompasses layers 5-7 of the OSI model. It is a client server protocol where the values
+are represented in [JSON](#JSON) for human readability or [CBOR](#CBOR) for machine consumption.
+Information is represented as a tree and can be retrieved via a query that can include an entire branch.
+Modifications use a mechanism similar to iPATCH as defined in [RFC 8132](https://tools.ietf.org/html/rfc8132),
+a potentially multi-valued but idempotent modification of leaf nodes.
+
+
+
