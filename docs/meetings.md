@@ -24,49 +24,58 @@ Further instructions are available on the Zoom web site:
 ### 2020-01-14 Meeting
 [Meeting recording](https://fccdl.in/i6xPDMIKES).
 
-[Meeting presentation](./MeetingMaterials/20200114MeetingRev04.pdf)
+[ODG (James Gula) presentation](./MeetingMaterials/20200114MeetingRev04.pdf)
 
 ### 2020-02-11 Meeting
 [Meeting recording](https://fccdl.in/4eY4W7tpXi).
 
-[Jim's presentation](./MeetingMaterials/20200211MeetingRev02.pdf)
+[ODG (James Gula) presentation](./MeetingMaterials/20200211MeetingRev02.pdf)
 
-[Martin's presentation](./MeetingMaterials/20200211_DC_grid_converter_fundamentals.pdf)
+[ODG (Martin Jäger) presentation](./MeetingMaterials/20200211_DC_grid_converter_fundamentals.pdf)
 
 ### 2020-03-10 Meeting
 [Meeting recording](https://fccdl.in/w3M6UKPax4).
 
-[Jim's presentation](./MeetingMaterials/20200310MeetingRev03.pdf)
+[ODG (James Gula) presentation](./MeetingMaterials/20200310MeetingRev03.pdf)
 
-[Rajesh's presentation](./MeetingMaterials/20200310MeetingRajesh.pdf)
+[IEEE P2030.10.1 (Rajesh Kunnath) presentation](./MeetingMaterials/20200310MeetingRajesh.pdf)
 
 ### 2020-04-14 Meeting
 [Meeting recording](https://fccdl.in/1tFeDEKhoq).
 
-[Jim's presentation](./MeetingMaterials/20200414MeetingRev02.pdf)
+[ODG (James Gula) presentation](./MeetingMaterials/20200414MeetingRev02.pdf)
 
 ### 2020-05-12 Meeting
 [Meeting recording](https://fccdl.in/VHnO1ZNyZD).
 
-[Jim's presentation](./MeetingMaterials/20200512MeetingRev02.pdf)
+[ODG (James Gula) presentation](./MeetingMaterials/20200512MeetingRev02.pdf)
 
-[Sijo's presentation](./MeetingMaterials/20200512MeetingAugustine.pdf)
+[New Mexico State (Sijo Augustine) presentation](./MeetingMaterials/20200512MeetingAugustine.pdf)
 
-[Chris's presentation](./MeetingMaterials/20200512MeetingMoller.pdf)
+[ODG (Chris Moller) presentation](./MeetingMaterials/20200512MeetingMoller.pdf)
 
 ### 2020-06-09 Meeting
 [Meeting recording](https://fccdl.in/Gd5Fpo8Tvc).
 
-[Jim's presentation](./MeetingMaterials/20200609MeetingRev01.pdf)
+[ODG (James Gula) presentation](./MeetingMaterials/20200609MeetingRev01.pdf)
 
-[Martin's presentation](./MeetingMaterials/20200609MeetingJager.pdf)
+[ODG (Martin Jäger) presentation](./MeetingMaterials/20200609MeetingJager.pdf)
 
 ### 2020-07-14 Meeting
 [Meeting recording](https://fccdl.in/Ba3lsKNqXS).
 
-[Garick's presentation](./MeetingMaterials/20200714_GOGLA_slides_for_ODG_meeting.pdf)
+[GOGLA (Garick Lee) presentation](./MeetingMaterials/20200714_GOGLA_slides_for_ODG_meeting.pdf)
 
-[Jim's presentation](./MeetingMaterials/20200714_Open_DC_Grid_Meeting_Rev_01.pdf)
+[ODG (James Gula)  presentation](./MeetingMaterials/20200714_Open_DC_Grid_Meeting_Rev_01.pdf)
+
+### 2020-08-11 Meeting
+[Meeting recording](https://us02web.zoom.us/rec/share/3-9YAb7TsWlLetLAyEDaRq8iM7nMX6a81iIbqftZyhoSij3aBmJl3Y-KkVQS1qmR).
+
+[ODG (James Gula) presentation](./MeetingMaterials/20200811MeetingRev04.pdf)
+
+[Angaza (Chad Norvell) presentation](./MeetingMaterials/20200811Angaza.pdf)
+
+[Solaris (Danielle Nedosseikine) presentation](./MeetingMaterials/20200811Solaris.pdf)
 
 
 
