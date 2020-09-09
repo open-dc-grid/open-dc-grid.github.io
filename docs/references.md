@@ -59,6 +59,8 @@ derived from [Lighting Global](#LightingGlobal) testing procedures. Products tha
 
 When practical, this standard attempts to harmonize with existing standards for low voltage power distribution used in vehicles.
 
+### Vehicle Electrical Systems
+
 <a name="ISO21780"></a>[ISO 21780 Road vehicles — Supply voltage of 48 V — Electrical requirements and tests](https://www.iso.org/standard/71607.html) One of the standards this project is intending to harmonize with. It defines functiona state across of range of operating voltages and tests needed to validate that a component will interoperate with other equipment in the vehicle. Based on [VDA 320](#VDA320).
 
 <a name="VDA320"></a>[VDA 320 - Electric and Electronic Components in Motor Vehicles 48 V On-Board Power Supply](https://www.vda.de/en/services/Publications/vda-320---components-for-the-development-of-48-v-on-board-power-supply.html) A standard from the German auto industry association addressing power distribution at 48V. A good paper about this activity is: [48-Volt Electrical Systems – A Key Technology Paving to the Road to Electric Mobility](https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/2016/april/48-Volt_Electrical_Systems_-_A_Key_Technology_Paving_the_Road_to_Electric_Mobility/48-Volt-Electrical-Systems-Electric-Mobility-engl-2016.pdf) from [ZVEI](https://www.zvei.org/).
@@ -72,6 +74,37 @@ LV 148 - A german auto industry standard for electrical components operating at 
 <a name="ISO4165"></a>[ISO 4165:2001 Electrical connections — Double-pole connection](https://www.iso.org/standard/33321.html). 
 The standard that describes the electric outlet used on some European vehicles. Slightly smaller than the 
 American cigarette lighter outlet described by [SAE 563](#SAE563). See also: [Wikipedia: ISO 4165](https://en.wikipedia.org/wiki/ISO_4165).
+
+### Electric Vehicle Charging Systems
+[TU Deflt Open University Overview](https://ocw.tudelft.nl/wp-content/uploads/eCARS2x_Lecture_Notes_L3-3.pdf) A good overview
+of the various standards related to EV charging.
+
+<a name="BharatEVCharger"></a>[India - Bharat EV Charger Specifications](http://dhi.nic.in/writereaddata/UploadFile/Standardization%20of%20protocol.pdf)
+A standard from India for EV charging stations that includes 48V DC charging with currents up to 200A. 
+The DC interface is based on the Chinese EV connector standard [GB/T20234.3](#GBT202343).
+The interface includes a CAN with the protocols being a slightly modified version of the Chinese EV charging
+protocol standard [GB/T 27930-2015](#GBT27930) which is, in turn, a modified version of [SAE J1939](#SAEJ1939).
+
+<a name="GBT202343"></a>[China - EV DC Charging Connector Standard GB/T20234.3](https://www.codeofchina.com/standard/GBT20234.3-2015.html)
+A standard for a DC charging connector and cable capable of up to 200A.
+
+<a name="GBT27930"></a>[China - EV Charging Protocol Standard GB/T 27930-2015](https://www.codeofchina.com/standard/GBT27930-2015.html)
+The China standard application protocol for EV charging. A modified version of [SAE J1939](#SAEJ1939). It uses CAN for electrical connectivity.
+[A CAN newsletter](https://can-newsletter.org/uploads/media/raw/ae1b15472210b28577b4a241b03a231f.pdf) gives an overview of the standard. 
+
+<a name="IEC61851"></a>[IEC 61851](https://webstore.iec.ch/publication/33644) The IEC standard collection for EV charging.
+[Wikipedia](https://en.wikipedia.org/wiki/IEC_61851) has a brief overview of the collection which includes
+[IEC 61851-23:2014](https://webstore.iec.ch/publication/6032) that defines a DC charging station and
+[IEC 61851-24:2014](https://webstore.iec.ch/publication/6033) that defines the DC communications Protocol.
+
+<a name="SAEJ1939"></a>[US - EV Charging Communications Standard SAE J1939](https://www.sae.org/standardsdev/groundvehicle/j1939a.htm) A collection of standards
+for communications relating to EV charging based on CAN. [Wikipedia](https://en.wikipedia.org/wiki/SAE_J1939) has an overview.
+ 
+<a name="SAEJ1772"></a>[US - EV Charging Connector Standard SAE J1772](https://www.sae.org/standards/content/j1772_201710/)
+The US Standard for an AC charging connector. [Wikipedia](https://en.wikipedia.org/wiki/SAE_J1772) has an overview.
+
+<a name="OpenCharge"></a>[Open Charge Alliance](https://www.openchargealliance.org/) An association of vendors
+promoting the Open Charge Point Protocol - an open standard for EV charging.
 
 ## Software Standards and Initiatives Related to ODG
 
