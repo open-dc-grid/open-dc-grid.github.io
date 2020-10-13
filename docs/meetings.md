@@ -6,7 +6,7 @@ editLink: true
 
 ## Regular web conference
 
-Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:00 UTC Mar - Nov, 15:00 UTC Dec - Feb).
+Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:00 UTC Apr - Oct, 15:00 UTC Nov - Mar).
 
 **Contact information:**
 
@@ -83,6 +83,13 @@ Further instructions are available on the Zoom web site:
 [ODG (James Gula) presentation](./MeetingMaterials/20200908MeetingRev01.pdf)
 
 [UW (Joe Decuir) presentation](./MeetingMaterials/20200908Decuir.pdf)
+
+### 2020-10-13 Meeting
+[Meeting Recording](https://us02web.zoom.us/rec/share/SSqyw0ClHOaBAmq7mvAt5-4HpgR1zBdaOIekT_udr4Cf7F4lQvaunvUH3-lVEmJ5.iscvx6IVIr5Je_6B).
+
+[ODG (James Gula) presentation](./MeetingMaterials/20201013MeetingRev01.pdf)
+
+[ODG (Martin Jäger) presentation](./MeetingMaterials/20201013Jager.pdf)
 
 
 
