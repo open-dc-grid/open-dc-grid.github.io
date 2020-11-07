@@ -3,6 +3,9 @@ editLink: true
 ---
 
 # Meetings
+::: tip
+The November meeting of the Open DC Project has been cancelled. Meetings will resume with the December 8 meeting. 
+:::
 
 ## Regular web conference
 
