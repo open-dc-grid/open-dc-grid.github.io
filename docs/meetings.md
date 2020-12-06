@@ -3,9 +3,6 @@ editLink: true
 ---
 
 # Meetings
-::: tip
-The November meeting of the Open DC Project has been cancelled. Meetings will resume with the December 8 meeting. 
-:::
 
 ## Regular web conference
 
@@ -13,7 +10,7 @@ Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:
 
 **Contact information:**
 
-Join the online meeting: [Zoom Meeting ID 875 1828 4403 - no password](https://us02web.zoom.us/j/87518284403)
+Join the online meeting: [Zoom Meeting ID 875 1828 4403 - password: opendcgrid](https://us02web.zoom.us/j/87518284403?pwd=azl6dENVcDNCYTZFcDQvYXQzZGIrUT09)
 
 US Phone number: 408 638 0968 US (San Jose)  
 International dial-in numbers: [Find Local Zoom Number](https://us02web.zoom.us/u/kcufc3bAu6)
@@ -93,6 +90,10 @@ Further instructions are available on the Zoom web site:
 [ODG (James Gula) presentation](./MeetingMaterials/20201013MeetingRev01.pdf)
 
 [ODG (Martin Jäger) presentation](./MeetingMaterials/20201013Jager.pdf)
+
+### 2020-11-10 Meeting
+
+The November 2020 meeting was cancelled.
 
 
 
