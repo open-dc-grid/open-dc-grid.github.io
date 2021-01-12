@@ -3,11 +3,6 @@ editLink: true
 ---
 
 # Open DC Grid
-::: tip
-Note that we have added a password (opendcgrid) to the 
-[Zoom for monthly project meetings (ID: 875 1828 4403)](https://us02web.zoom.us/j/87518284403?pwd=azl6dENVcDNCYTZFcDQvYXQzZGIrUT09).
-The next meeting will be December 8 at 1500 UTC (7AM PST). 
-:::
 <center>
 
 ![Grid Overview](./images/grid-overview.svg)
