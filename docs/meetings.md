@@ -10,7 +10,7 @@ Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:
 
 **Contact information:**
 
-Join the online meeting: [Zoom Meeting ID 875 1828 4403 - password: opendcgrid](https://us02web.zoom.us/j/87518284403?pwd=azl6dENVcDNCYTZFcDQvYXQzZGIrUT09)
+Join the online meeting: [Zoom Meeting ID 875 1828 4403 - password: opendcgrid or 8787477739](https://us02web.zoom.us/j/87518284403?pwd=azl6dENVcDNCYTZFcDQvYXQzZGIrUT09)
 
 US Phone number: 408 638 0968 US (San Jose)  
 International dial-in numbers: [Find Local Zoom Number](https://us02web.zoom.us/u/kcufc3bAu6)
@@ -95,5 +95,16 @@ Further instructions are available on the Zoom web site:
 
 The November 2020 meeting was cancelled.
 
+### 2020-12-08 Meeting
 
+[Meeting Recording](https://us02web.zoom.us/rec/share/nAt0CimcKlAXCGnBTiJ19vC2yn42SS3XMyHSxFsvwlqwR2llYcPuzcDZwAQ4wIU0.FKu9CrMwQgquSr--)
 
+[ODG (James Gula) presentation](./MeetingMaterials/20201208MeetingRev02.pdf)
+
+[LFEnergy (Shuli Goodman) presentation](./MeetingMaterials/20201208Goodman_LFEnergy_High_Level_Overview.pdf)
+
+### 2021-01-12 Meeting
+
+[Meeting Recording](https://us02web.zoom.us/rec/share/jw3tRx46kpWmAsxyhqZqxkbelu_-EuQ7rYED3Dx-xK46zm0WVKTb-qD7SOwOgVOP.5FD3NdhmKJb1dVM6)
+
+[ODG (James Gula and Bruce Nordman) presentation](./MeetingMaterials/20210112MeetingRev02.pdf)
