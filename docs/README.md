@@ -3,6 +3,9 @@ editLink: true
 ---
 
 # Open DC Grid
+::: warning
+The Open DC Grid meeting scheduled for February 9 has been cancelled. Meetings will resume with our regular March 9 meeting.
+:::
 <center>
 
 ![Grid Overview](./images/grid-overview.svg)
