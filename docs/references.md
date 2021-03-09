@@ -26,6 +26,16 @@ This section is just getting started, filling more as we have the time and energ
 
 <a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://www.services.bis.gov.in:8071/php/BIS/bisconnect/pow/is_details?IDS=MjI3MTI%3D) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
 
+## Microgrid Activities and Publications
+
+<a name="LFEnergy"></a>[LFEnergy Microgrid SIG](https://wiki.lfenergy.org/display/HOME/Microgrids+SIG): 
+A special interest group for microgrids under the LFEnergy project.
+[LFEnergy](https://wiki.lfenergy.org/) is the home of several energy and smart grid-related open source projects 
+operating under the umbrella of the [Linux Foundation](https://www.linuxfoundation.org/).
+
+<a name="MicrogridKnowledge"></a>[Microgrid Knowledge](https://microgridknowledge.com) An online newsletter
+focused on microgrids and distributed energy resources. 
+
 ## Off-Grid Energy Access Organizations and Initiatives
 
 <a name="CLASP"></a>[CLASP](https://clasp.ngo/): An NGO focused on energy efficient appliances
