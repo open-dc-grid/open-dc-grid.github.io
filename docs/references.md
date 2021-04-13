@@ -19,6 +19,9 @@ This section is just getting started, filling more as we have the time and energ
 ## Microgrid Architecture
 [*DC Local Power Distribution with Microgrids and Nanogrid*](https://drive.google.com/open?id=0B8B9XW6B7prlczMzOE1QWHFXNjA). Nordman, B, and K. Christensen, First International Conference on DC Microgrids, Atlanta, GA, June 2015. Bruce Nordman was an early advocate and innovator for the kinds of microgrids this project is working toward. [Bruce's website](http://nordman.lbl.gov/) is a trove of papers, talks and related material.
 
+[*A Simulation of Local Power Distribution Control Strategies*](https://drive.google.com/file/d/0B8B9XW6B7prlRksyQk9TVl9tU3c/view). Nordman, B., K. Spears, A. Kahndkar, and M. Pezzola. 
+Second International Conference on DC Microgrids, Nurnburg, Germany, June 2017 - Contains a more detailed description of the LPD power protocols .
+
 ## Related Microgrid Standards
 <a name="IEEEP2030.10"></a>[IEEE P2030.10 Draft Trial-Use Standard for DC Microgrids for Rural and Remote Electricity Access Applications](https://site.ieee.org/sagroups-2030-10/) Describes the requirements to implement an unmanaged grid operating at a nominal 48V. Includes external wiring recommendations and safety concerns. One of the standards this project is attempting to harmonize with. P2030.10, in turn, is harmonized with [ISO 21780](#ISO21780).
 
@@ -60,10 +63,18 @@ The actual testing of these products has been spun off into a separate organizat
 Lighting Global has regional affiliates [Lighting Africa](https://www.lightingglobal.org/where-we-work/lighting-africa/)
 and [Lighting Asia](https://www.lightingglobal.org/where-we-work/lighting-asia/).
 
+<a name="OwnTech"></a>[OwnTech](https://www.owntech.org/): An initiative under 
+[CNRS](http://www.cnrs.fr/en) and [LAAS](https://www.laas.fr/public/en) to create a library of stackable and reprogrammable
+hardware and associated software accessible via open source that can be combined to create power systems over a wide range of power levels
+including both DC and AC.
+
 <a name="Verasol"></a>[Verasol](https://verasol.org/): Organization focused on testing and quality assurance for the off-grid
 energy market, spun-off from [Lighting Global](#LightingGlobal). Products are tested against
 [IEC TS 62257-9-8](https://webstore.iec.ch/publication/62431), quality standards for pico-solar products and SHS kits
 derived from [Lighting Global](#LightingGlobal) testing procedures. Products that pass are issued a Verasol Certificate.
+
+<a name="Wind Empowerment"></a>[Wind Empowerment](https://windempowerment.org/): Wind Empowerment is an association for the 
+development of locally manufactured small wind turbines for sustainable rural electrification. 
 
 ## Vehicle Electrical Standards and Systems
 
@@ -86,6 +97,7 @@ The standard that describes the electric outlet used on some European vehicles. 
 American cigarette lighter outlet described by [SAE 563](#SAE563). See also: [Wikipedia: ISO 4165](https://en.wikipedia.org/wiki/ISO_4165).
 
 ### Electric Vehicle Charging Systems
+
 [TU Deflt Open University Overview](https://ocw.tudelft.nl/wp-content/uploads/eCARS2x_Lecture_Notes_L3-3.pdf) A good overview
 of the various standards related to EV charging.
 
@@ -131,9 +143,23 @@ devices face many of the same issues and can use the same techniques. It is exte
 Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks](https://tools.ietf.org/html/rfc6282)
 that addresses header compression.
 
+<a name="CANbus"></a>[CAN bus - Controller Area Network](https://en.wikipedia.org/wiki/CAN_bus):
+A multi-master serial bus originally designed by 
+[Robert Bosch, gmbh](https://www.bosch.com/) for use in automobiles but now
+expanded to many applications, especially automation. 
+It is formally defined by a series of
+ISO standards ([ISO-11898](https://www.iso.org/search.html?q=11898&hPP=10&idx=all_en&p=0&hFR%5Bcategory%5D%5B0%5D=standard)) 
+that include multiple physical transmission standards and link-layer protocols.
+The standard does not specify connectors so 
+[multiple connector types](http://www.interfacebus.com/Can_Bus_Connector_Pinout.html)
+have been informally adopted.
+An [older version of the standard](http://esd.cs.ucr.edu/webres/can20.pdf), 
+now superseded by the ISO version is available online. Prototype boards
+developed by Libre.Solar and used for testing by ODG include CAN bus functionality.
+
 <a name="LIN"></a>[LIN - Local Interconnect Network](https://en.wikipedia.org/wiki/Local_Interconnect_Network):
 A system for transmitting low-speed data using flat (not twisted pair) wiring. LIN was original designed
-for use as a less expensive alternative to the CAN bus in automobiles. It is formally defined by a series of
+for use as a less expensive alternative to the [CAN bus](#CANbus) in automobiles. It is formally defined by a series of
 ISO standards ([ISO-17987](https://www.iso.org/standard/61222.html)) that include link-layer protocols
 but good information about its electrical properties is available from semiconductor vendors who offer low-cost transceivers.
 ODG is primarily interested the use of these transceivers that implement the physical layer.
