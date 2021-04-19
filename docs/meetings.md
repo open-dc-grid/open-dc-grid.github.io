@@ -22,31 +22,31 @@ Further instructions are available on the Zoom web site:
 ## Content of previous meetings
 
 ### 2020-01-14 Meeting
-[Meeting recording](https://fccdl.in/i6xPDMIKES).
+[Meeting recording](https://www.dropbox.com/s/e2ku7i84wlelgb4/2020-01-14-%2311.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200114MeetingRev04.pdf)
 
 ### 2020-02-11 Meeting
-[Meeting recording](https://fccdl.in/4eY4W7tpXi).
+[Meeting recording](https://www.dropbox.com/s/pmdcygflc2buqo4/2020-02-11-%2312.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200211MeetingRev02.pdf)
 
 [ODG (Martin Jäger) presentation](./MeetingMaterials/20200211_DC_grid_converter_fundamentals.pdf)
 
 ### 2020-03-10 Meeting
-[Meeting recording](https://fccdl.in/w3M6UKPax4).
+[Meeting recording](https://www.dropbox.com/s/hk9yqo372q7xrrs/2020-03-10-%2313.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200310MeetingRev03.pdf)
 
 [IEEE P2030.10.1 (Rajesh Kunnath) presentation](./MeetingMaterials/20200310MeetingRajesh.pdf)
 
 ### 2020-04-14 Meeting
-[Meeting recording](https://fccdl.in/1tFeDEKhoq).
+[Meeting recording](https://www.dropbox.com/s/ei6kba5dq9riofh/2020-04-14-%2315.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200414MeetingRev02.pdf)
 
 ### 2020-05-12 Meeting
-[Meeting recording](https://fccdl.in/VHnO1ZNyZD).
+[Meeting recording](https://www.dropbox.com/s/8md1yetvt52vtzb/2020-05-12-%2316.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200512MeetingRev02.pdf)
 
@@ -55,21 +55,21 @@ Further instructions are available on the Zoom web site:
 [ODG (Chris Moller) presentation](./MeetingMaterials/20200512MeetingMoller.pdf)
 
 ### 2020-06-09 Meeting
-[Meeting recording](https://fccdl.in/Gd5Fpo8Tvc).
+[Meeting recording](https://www.dropbox.com/s/1wbscf18bo4yz3g/2020-06-09-%2317.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200609MeetingRev01.pdf)
 
 [ODG (Martin Jäger) presentation](./MeetingMaterials/20200609MeetingJager.pdf)
 
 ### 2020-07-14 Meeting
-[Meeting recording](https://fccdl.in/Ba3lsKNqXS).
+[Meeting recording](https://www.dropbox.com/s/3enew2kqur0qrvo/2020-07-14-%2318.mp4?dl=0)
 
 [GOGLA (Garick Lee) presentation](./MeetingMaterials/20200714_GOGLA_slides_for_ODG_meeting.pdf)
 
 [ODG (James Gula)  presentation](./MeetingMaterials/20200714_Open_DC_Grid_Meeting_Rev_01.pdf)
 
 ### 2020-08-11 Meeting
-[Meeting recording](https://us02web.zoom.us/rec/share/3-9YAb7TsWlLetLAyEDaRq8iM7nMX6a81iIbqftZyhoSij3aBmJl3Y-KkVQS1qmR).
+[Meeting recording](https://www.dropbox.com/s/wil4wa3147l4a0i/GMT20200811-140049_Open-DC-Gr_2560x1440.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200811MeetingRev04.pdf)
 
@@ -78,14 +78,14 @@ Further instructions are available on the Zoom web site:
 [Solaris (Danielle Nedosseikine) presentation](./MeetingMaterials/20200811Solaris.pdf)
 
 ### 2020-09-08 Meeting
-[Meeting recording](https://us02web.zoom.us/rec/share/y7cLcN_SHT-RerNVKN7WOTx9erhHodwmopY2GUtlqLSAGRhH6kBVelbCBrSvXpbs.gY283tf4WmTKtUqX).
+[Meeting recording](https://www.dropbox.com/s/7kvt9bylijcccpk/GMT20200908-140238_Open-DC-Gr_2560x1440.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20200908MeetingRev01.pdf)
 
 [UW (Joe Decuir) presentation](./MeetingMaterials/20200908Decuir.pdf)
 
 ### 2020-10-13 Meeting
-[Meeting Recording](https://us02web.zoom.us/rec/share/SSqyw0ClHOaBAmq7mvAt5-4HpgR1zBdaOIekT_udr4Cf7F4lQvaunvUH3-lVEmJ5.iscvx6IVIr5Je_6B).
+[Meeting Recording](https://www.dropbox.com/s/yliy1ovrc9q2sxs/GMT20201013-140155_Open-DC-Gr_2560x1440.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20201013MeetingRev01.pdf)
 
@@ -97,7 +97,7 @@ The November 2020 meeting was cancelled.
 
 ### 2020-12-08 Meeting
 
-[Meeting Recording](https://us02web.zoom.us/rec/share/nAt0CimcKlAXCGnBTiJ19vC2yn42SS3XMyHSxFsvwlqwR2llYcPuzcDZwAQ4wIU0.FKu9CrMwQgquSr--)
+[Meeting Recording](https://www.dropbox.com/s/sh6ot2vq7wp3g5z/GMT20201208-150138_Open-DC-Gr_2560x1440.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20201208MeetingRev02.pdf)
 
@@ -105,7 +105,7 @@ The November 2020 meeting was cancelled.
 
 ### 2021-01-12 Meeting
 
-[Meeting Recording](https://us02web.zoom.us/rec/share/jw3tRx46kpWmAsxyhqZqxkbelu_-EuQ7rYED3Dx-xK46zm0WVKTb-qD7SOwOgVOP.5FD3NdhmKJb1dVM6)
+[Meeting Recording](https://www.dropbox.com/s/39dhalto1d9w1l7/GMT20210112-150208_Open-DC-Gr_2560x1440.mp4?dl=0)
 
 [ODG (James Gula and Bruce Nordman) presentation](./MeetingMaterials/20210112MeetingRev02.pdf)
 
@@ -115,13 +115,13 @@ The February 9 meeting was cancelled.
 
 ### 2021-03-09 Meeting
 
-[Meeting Recording](https://us02web.zoom.us/rec/share/NVDcTrIf8M4Gac11p0Vx0Em8uxzjnbN9ZW5o7UuZh3uxsP1MB0_uIKu9A5iTk4pv.cqo4rQu-RL46MiRR)
+[Meeting Recording](https://www.dropbox.com/s/qvgcbr1n71jmzg5/GMT20210309-150129_Open-DC-Gr_2560x1440.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20210309ODGMeetingRev02.pdf)
 
 ### 2021-04-13 Meeting
 
-[Meeting Recording](https://us02web.zoom.us/rec/share/XuBcJ-5Pdj8JmUgRlhHulrhw2XjWrzJdF2EmeI7e3KgDq6KcHPNoEWz-PXm8f7uj.zwmCGqCpZdy8g4xq?startTime=1618322619000)
+[Meeting Recording](https://www.dropbox.com/s/i874c2qbdo4o9ur/GMT20210413-140339_Recording_2560x1440.mp4?dl=0)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20210413ODGMeetingRev02.pdf)
 
