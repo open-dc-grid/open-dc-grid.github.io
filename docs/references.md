@@ -19,8 +19,14 @@ This section is just getting started, filling more as we have the time and energ
 ## Microgrid Architecture
 [*DC Local Power Distribution with Microgrids and Nanogrid*](https://drive.google.com/open?id=0B8B9XW6B7prlczMzOE1QWHFXNjA). Nordman, B, and K. Christensen, First International Conference on DC Microgrids, Atlanta, GA, June 2015. Bruce Nordman was an early advocate and innovator for the kinds of microgrids this project is working toward. [Bruce's website](http://nordman.lbl.gov/) is a trove of papers, talks and related material.
 
-[*A Simulation of Local Power Distribution Control Strategies*](https://drive.google.com/file/d/0B8B9XW6B7prlRksyQk9TVl9tU3c/view). Nordman, B., K. Spears, A. Kahndkar, and M. Pezzola. 
-Second International Conference on DC Microgrids, Nurnburg, Germany, June 2017 - Contains a more detailed description of the LPD power protocols .
+<a name="LPD"></a>[*A Simulation of Local Power Distribution Control Strategies*](https://drive.google.com/file/d/0B8B9XW6B7prlRksyQk9TVl9tU3c/view). Nordman, B., K. Spears, A. Kahndkar, and M. Pezzola. 
+Second International Conference on DC Microgrids, Nurnburg, Germany, June 2017 - Contains a more detailed description of the LPD power protocols.
+
+<a name="Hyphae"></a>[Hyphae](https://www.lfenergy.org/projects/hyphae/). 
+A project from [Sony CSL](https://www.sonycsl.co.jp/) to define peer-to-peer power distribution in a microgrid. 
+The architecture and software have been offered under open source adopted by [LFEnergy](#LFEnergy).
+The [specification](https://github.com/hyphae/apis-main/blob/master/doc/en/apis-main_specification_en.md)
+and code are available on the [Hyphae GitHub Site](https://github.com/hyphae).
 
 ## Related Microgrid Standards
 <a name="IEEEP2030.10"></a>[IEEE P2030.10 Draft Trial-Use Standard for DC Microgrids for Rural and Remote Electricity Access Applications](https://site.ieee.org/sagroups-2030-10/) Describes the requirements to implement an unmanaged grid operating at a nominal 48V. Includes external wiring recommendations and safety concerns. One of the standards this project is attempting to harmonize with. P2030.10, in turn, is harmonized with [ISO 21780](#ISO21780).
@@ -37,7 +43,7 @@ A special interest group for microgrids under the LFEnergy project.
 operating under the umbrella of the [Linux Foundation](https://www.linuxfoundation.org/).
 
 <a name="MicrogridKnowledge"></a>[Microgrid Knowledge](https://microgridknowledge.com) An online newsletter
-focused on microgrids and distributed energy resources. 
+focused on microgrids and distributed energy resources.
 
 ## Off-Grid Energy Access Organizations and Initiatives
 
@@ -75,6 +81,47 @@ derived from [Lighting Global](#LightingGlobal) testing procedures. Products tha
 
 <a name="Wind Empowerment"></a>[Wind Empowerment](https://windempowerment.org/): Wind Empowerment is an association for the 
 development of locally manufactured small wind turbines for sustainable rural electrification. 
+
+## Microgrid Vendors
+
+Companies currently offering products and services related to Open DC Grid:
+
+<a name="Angaza"></a>[Angaza](https://www.angaza.com/): Makes
+remote management and customer relationship software for off-grid power systems.
+Angaza is based in the US and Kenya and markets its products globally.
+
+<a name="ConnectedEnergy"></a>[Connected Energy](https://connectedenergy.net): Makes
+smart monitoring products for off-grid energy including solar and biogas.
+Connected Energy is based in Scotland and markets its products globally.
+
+<a name="LibreSolar"></a>[Libre Solar](https://libre.solar/): A company founded by 
+Open DC Grid co-founder [Martin Jäger](participants#MartinJäger) that makes PV charge controllers,
+battery management systems and other hardware for the renewable energy and energy access markets. Libre Solar
+offers its designs under open source at its [GitHub site](https://github.com/LibreSolar).
+Libre Solar is based in Germany and collaborates with partners to offer products globally.
+
+<a name="MeshPower"></a>[MeshPower Rwanda](https://www.meshpower.co.rw/): Sells
+solar powered microgrids and smart meters for the energy access markets. Its business model
+is to sell energy as a service that does not require the customer to purchase hardware. 
+It is based in Rwanda and its primary market focus is central Africa.
+MeshPower Rwanda is a subsidiary of [Xpower](#Xpower).
+
+<a name="OkraSolar"></a>[OkraSolar](https://okrasolar.com/): Offers tools and hardware
+for the last mile distribution of power via mesh grids. Okra is based in Cambodia
+and its primary markets are in East Asia including Cambodia and the Philippines.
+
+<a name="Solaris"></a>[Solaris Offgrid](https://www.solarisoffgrid.com/): Provides software
+and services for off-grid vendors particularly tools related to pay-as-you-go (PAYGO) billing.
+Solaris Offgrid is based in London and markets its products globally.
+ 
+<a name="Solshare"></a>[Solshare](https://me-solshare.com/): Interconnects solar home systems
+into smart peer-to-peer microgrids that allows consumers to monetize excess solar energy by
+sharing it with neighbors utilizing mobile money. Solshare is based in Bangladesh
+and its primary markets are in South Asia.
+
+<a name="Xpower"></a>[Xpower](https://www.xpowerinc.com/): A US company focussed on 
+developing technologies which enable distributed utilities across the 
+developing world to provide rural communities with modern services. 
 
 ## Vehicle Electrical Standards and Systems
 
@@ -128,7 +175,11 @@ The US Standard for an AC charging connector. [Wikipedia](https://en.wikipedia.o
 <a name="OpenCharge"></a>[Open Charge Alliance](https://www.openchargealliance.org/) An association of vendors
 promoting the Open Charge Point Protocol - an open standard for EV charging.
 
-## Software Standards and Initiatives Related to ODG
+## Software Standards and Initiatives
+<a name="OpenAPI"></a>[OpenAPI Initiative](https://www.openapis.org/): A standard that
+allows the description of a remote API accessible through HTTP or HTTP-like protocols including 
+[CoAP](#CoAP). The API is described in a schema written in [JSON](#JSON). [Tools](#OpenAPITools) exist to
+translate the schema into client or server source code in many computer languages and frameworks. 
 
 The following items are organized roughly by layer according to the [OSI model](https://en.wikipedia.org/wiki/OSI_model)
 but note that things don't always fall neatly into that model or span multiple layers.
@@ -261,12 +312,112 @@ In some cases these models define a complete API for a device. More commonly a d
 to combine various models like [BinarySwitch](https://oneiota.org/revisions/6149) - a very long-winded
 way to describe an on-off switch.
 
+<a name="OpenADR"></a>[OpenADR](https://www.openadr.org/): An open standard to automate and simplify
+[Demand Response(DR)](https://en.wikipedia.org/wiki/Demand_response), a mechanism by which a utility
+grid can ask power consumers to reduce power consumption to match the supply available to the utility.
+In the context of microgrids, the utility grid would ask the microgrid to reduce its demand
+at the [point of common coupling](https://en.wikipedia.org/wiki/Microgrid#Point_of_common_coupling_%28PCC%29).
+The microgrid would then adjust its internal power flows to minimize consumption from the utility grid.
+
 <a name="ThingSet"></a>[ThingSet](https://libre.solar/thingset/): A transport agnostic protocol for the setting of things
 that encompasses layers 5-7 of the OSI model. It is a client server protocol where the values
 are represented in [JSON](#JSON) for human readability or [CBOR](#CBOR) for machine consumption.
 Information is represented as a tree and can be retrieved via a query that can include an entire branch.
 Modifications use a mechanism similar to iPATCH as defined in [RFC 8132](https://tools.ietf.org/html/rfc8132),
 a potentially multi-valued but idempotent modification of leaf nodes.
+
+## Embedded Systems, Development Tools and Firmware
+
+### Embedded Systems - Microcontrollers
+
+<a name="ArmCortexM"></a>[Arm Cortex-M](https://en.wikipedia.org/wiki/ARM_Cortex-M): A family
+of 32-bit 
+[RISC](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer) 
+processor cores based on designs licensed from
+[Arm](https://en.wikipedia.org/wiki/Arm_Ltd). Microcontrollers based on these cores
+with varying peripherals are available from many vendors include [ST](#STM32),
+[TI](https://www.ti.com/microcontrollers-mcus-processors/processors/arm-based-processors/products.html)
+and others. Firmware for these microcontrollers is commonly compiled using
+the 
+[GNU tool chain](#GNUToolchain).
+
+<a name="STM32"></a>[STM32](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html): 
+A family of 32-bit microcontrollers based on the Arm Cortex -M series of processors.
+These are the microcontrollers most commonly used on ODG demonstration boards.
+A useful way to get started with STM32 is to purchase one of the family of ST demonstration
+boards referred to as 
+[STM32 Nucleo](https://www.st.com/en/evaluation-tools/stm32-nucleo-boards.html).
+These are low-cost and many come with pins that support 
+[Arduino Shields](https://playground.arduino.cc/Main/SimilarBoards/#goShie).
+
+### Tools for Embedded Software
+
+<a name="Docker"></a>[Docker](https://www.docker.com/): A lightweight virtualization tool that allows
+a host computer to execute virtualized images of other platforms. The docker engine is free and available
+for Windows, Mac and Linux. For development, docker supports
+creating an image with all the tools installed with known versions and a known OS
+so a build can be assured of completing, such as
+[zephyrprojectrtos/zephyr-build](https://hub.docker.com/r/zephyrprojectrtos/zephyr-build)
+which is a snapshot of the official Zephyr project build environment.
+
+
+<a name="Eclipse"></a>[Eclipse](https://www.eclipse.org): A free and open source desktop integrated
+development environment (IDE) that supports plugins for a wide variety of specialized tools.
+Typically these plugins can be applied to the 
+[base Eclipse platform](https://www.eclipse.org/downloads/) or as a download
+that has the plugin preinstalled so that the combined environment is ready to run, referred to as
+***packages*** in the Eclipse world.
+Some packages that may be of interest to ODG developers include:
+
+* <a name="EclipseCDT"></a>[Eclipse CDT](https://www.eclipse.org/cdt/): An IDE for C and C++ programming. Includes
+editors, compilers([GCC](#GCC) and [Clang](https://clang.llvm.org/)),
+debuggers([GDB](https://www.gnu.org/software/gdb/) and
+[LLDB](https://lldb.llvm.org/)) and build tools([Make](https://www.gnu.org/software/make/), Eclipse native).
+
+* <a name="EclipseEmbeddedCDT"></a>[Eclipse Embedded CDT](https://projects.eclipse.org/projects/iot.embed-cdt): 
+A more specialized version of [Eclipse CDT](#EclipseCDT) focused on
+[Arm](https://en.wikipedia.org/wiki/ARM_architecture) and
+[RISC-V](https://en.wikipedia.org/wiki/RISC-V) applications. Supports multiple tool chains.
+
+<a name="GNUToolchain"></a>[GNU Toolchain](https://en.wikipedia.org/wiki/GNU_toolchain): 
+A set of open-source programming tools from the
+[GNU Project](https://en.wikipedia.org/wiki/GNU_Project).
+Packages (build-essential) to install the tool chain are available on all flavors of Linux. On Windows
+these tools are typically installed using 
+[mingw-w64](http://mingw-w64.org/doku.php/start). On a Mac, the tool chain can be installed
+with a package manager such as [homebrew](https://brew.sh/).
+The tools include:
+
+* <a name="GCC"></a>[GCC](https://gcc.gnu.org/): A cross-compiler with front ends for C, C++
+and other languages.
+
+* <a name="GDB"></a>[GDB](https://www.gnu.org/software/gdb/): 
+A command line debugger. IDEs such as [Eclipse](#EclipseCDT) integrate GDB to provide a GUI.
+
+* <a name="GNUMake"></a>[GNU Make](https://www.gnu.org/software/make/): 
+A build tool that describes the creation of an executable using dependencies
+to minimize recompilation.
+
+<a name="OpenAPITools"></a>[OpenAPI Tools](https://openapi.tools/): A collection of
+tools to edit [OpenAPI](#OpenAPIß) schemas, generate client or server code and test the schema.
+
+<a name="Platformio"></a>[Platformio](https://platformio.org/): An open source
+tool for developing embedded firmware. It can be run as command line interface (CLI)
+or as an integrated development environment (IDE) operating as an extension to
+[Visual Studio Code](https://code.visualstudio.com/) a free code editor from Microsoft.
+
+<a name="STMCubeIDE"></a>[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html): 
+A repackaged version of [Eclipse](#Eclipse) that contains plugins to simplify
+development on the [SMT32](#STM32) processors including a pinout configurator.
+
+### Operating Systems for Embedded Software
+
+<a name="Zephyr"></a>[Zephyr RTOS](https://www.zephyrproject.org/): An open source
+[real time operating system(RTOS)](https://en.wikipedia.org/wiki/Real-time_operating_system) 
+that provides the OS platform for ODG's
+demonstration boards. It's 
+[main repository](https://github.com/zephyrproject-rtos/zephyr) is hosted on GitHub.
+
 
 
 

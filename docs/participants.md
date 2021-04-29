@@ -8,12 +8,12 @@ This list gives an overview of people and organizations who are currently active
 
 ### James Gula
 
-Retired engineer interested in improving lives with DC grids and related technology. System architecture lead and primary author of IEEE draft standard [P2030.10 DC Microgrids for Rural and Remote Applications](https://site.ieee.org/sagroups-2030-10/). Cofounder of this open standard project with Martin Jäger.
+<a name="JamesGula"></a>Retired engineer interested in improving lives with DC grids and related technology. System architecture lead and primary author of IEEE draft standard [P2030.10 DC Microgrids for Rural and Remote Applications](https://site.ieee.org/sagroups-2030-10/). Cofounder of this open standard project with Martin Jäger.
 
 E-Mail: <a href="mailto:jlgula@papugh.com" target="_top">jlgula@papugh.com</a>
 
 ### Martin Jäger (Libre Solar)
 
-Engineer and open source enthusiast currently developing DC grids for energy access in Rwanda. He is the founder of the [Libre Solar](https://libre.solar) open hardware project and initiated this open standardization together with Jim Gula.
+<a name="MartinJäger"></a>Engineer and open source enthusiast currently developing DC grids for energy access in Rwanda. He is the founder of the [Libre Solar](https://libre.solar) open hardware project and initiated this open standardization together with Jim Gula.
 
 E-Mail: martin at libre.solar
