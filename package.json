@@ -5,7 +5,7 @@
         "docs:pdf": "vuepress export docs"
     },
     "dependencies": {
-        "chart.js": "^2.8.0",
+        "chart.js": "^2.9.4",
         "vue-chartjs": "^3.4.2",
         "vuepress-plugin-export": "^0.2.0",
         "vuepress-plugin-mathjax": "^1.2.8"
