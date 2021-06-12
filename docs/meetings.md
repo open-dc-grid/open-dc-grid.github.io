@@ -21,6 +21,12 @@ Further instructions are available on the Zoom web site:
 
 ## Content of previous meetings (most recent first)
 
+### 2021-06-08 Meeting
+
+[Meeting Recording](https://www.dropbox.com/s/egzjo5bsyoa2qu2/GMT20210608-140347_Recording_2560x1440.mp4?dl=0)
+
+[ODG (James Gula) presentation](./MeetingMaterials/20210608ODGMeetingRev01.pdf)
+
 ### 2021-05-11 Meeting
 
 [Meeting Recording](https://www.dropbox.com/s/a7r1th1hyv3dpdn/ODGMeeting20210511.mp4?dl=0)
