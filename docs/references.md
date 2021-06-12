@@ -46,11 +46,13 @@ operating under the umbrella of the [Linux Foundation](https://www.linuxfoundati
 focused on microgrids and distributed energy resources.
 
 ## Off-Grid Energy Access Organizations and Initiatives
-
-<a name="AMDA">[Africa Development Bank](https://www.afdb.org/en) Finance organization focused on
+<a name="AFDB"></a>[Africa Development Bank](https://www.afdb.org/en) Finance organization focused on
 economic development and social progress in Africa. Offers the
 [Green Mini-Grid Help Desk](https://greenminigrid.afdb.org/) a resource that offers a wide
 variety of publications relating to mini-grids from technical advice, finance, commissioning and more.
+
+<a name="ARE"></a>[Alliance for Rural Electrification (ARE)](https://www.ruralelec.org/) 
+A business association that promotes a sustainable decentralised renewable energy industry.
 
 <a name="AMDA"></a>[Africa Minigrid Developers Association](https://africamda.org/) A trade association focused on minigrids for Africa.
 
@@ -62,6 +64,12 @@ including [Efficiency For Access](#EfficiencyForAccess) and [Verasol](#Verasol).
 activities and funding to support energy access. Offers a [library of publications](https://efficiencyforaccess.org/publications)
 containing reports addressing various aspects of the energy access challenge.
 
+<a name="ESMAP"></a>[Energy Sector Management Assistance Program (ESMAP)](https://www.esmap.org/): An organization
+sponsored by the World Bank and other partners to help low and middle-income countries reduce poverty and boost growth through sustainable energy solutions.
+ESMAP created the [multi-tier framework for measruing energy access](https://www.esmap.org/node/55526)
+([full report](http://openknowledge.worldbank.org/bitstream/handle/10986/24368/Beyond0connect0d000technical0report.pdf?sequence=1&isAllowed=y))
+that adds clarity and nuance to the concept of lacking energy.
+
 <a name="GOGLA"></a>[GOGLA - Global Off-Grid Lighting Association](https://www.gogla.org/): 
 Industry association for vendors participating in the off-grid solar industry. 
 Publishes market surveys and coordinates industry standards for interoperablity and quality assurance.
@@ -69,20 +77,36 @@ In cooperation with [Lighting Global](#LightingGlobal), publishes its biannual
 [Global Off-Grid Market Sales Report](https://www.gogla.org/global-off-grid-solar-market-report) 
 that provides a detailed breakdown of off-grid market sales
 
+<a name="LightingAfrica"></a>[Lighting Africa](https://www.lightingafrica.org/): 
+World Bank initiative to promote off-grid lighting and electricity specifically focused on sub-Saharan Africa.
+
+<a name="LightingAsia"></a>[Lighting Asia](https://www.lightingafrica.org/): 
+World Bank initiative to promote off-grid lighting and electricity specifically focused on Asia
+with a regional subgroup focused on
+[India](https://www.lightingasia.org/india/).
+
 <a name="LightingGlobal"></a>[Lighting Global](https://www.lightingglobal.org/): 
 World Bank initiative to promote off-grid lighting and electricity. 
 Maintains a [database of products](https://www.lightingglobal.org/products/) that have been tested according to well-defined standards. 
 The actual testing of these products has been spun off into a separate organization, [Verasol](#Verasol).
-Lighting Global has regional affiliates [Lighting Africa](https://www.lightingglobal.org/where-we-work/lighting-africa/)
-and [Lighting Asia](https://www.lightingglobal.org/where-we-work/lighting-asia/).
+Lighting Global has regional affiliates [Lighting Africa](#LightingAfrica)
+and [Lighting Asia](#LightingAsia).
 
 <a name="OwnTech"></a>[OwnTech](https://www.owntech.org/): An initiative under 
 [CNRS](http://www.cnrs.fr/en) and [LAAS](https://www.laas.fr/public/en) to create a library of stackable and reprogrammable
 hardware and associated software accessible via open source that can be combined to create power systems over a wide range of power levels
 including both DC and AC.
 
-<a name="USAID">[USAID Toolkit](https://www.usaid.gov/energy/mini-grids) The 
-[US Agency for International Development](https://www.usaid.gov/)
+<a name="RMI"></a>[RMI](https://rmi.org/): Rocky Mountain Institute (RMI) is an organization in the United States dedicated to research, publication, consulting, and 
+lecturing in the general field of sustainability, with a special focus on profitable innovations for energy and resource efficiency
+[Wikipedia - RMI](https://en.wikipedia.org/wiki/Rocky_Mountain_Institute). 
+One of their
+initiatives is the
+[Africa Energy Program](https://rmi.org/our-work/seed/) that seeks to accelerate energy access
+in sub-Sahran Africa. [RMI is based in the US](https://rmi.org/about/office-locations/) with offices globally.
+
+<a name="USAID"></a>[USAID Toolkit](https://www.usaid.gov/energy/mini-grids) The 
+[US Agency for International Development](https://www.usaid.gov/) 
 [Energy Section](https://www.usaid.gov/energy) offers a tool kit of publications
 that addresses many aspects of mini-grid development including technical and finance.
 
@@ -106,7 +130,7 @@ Angaza is based in the US and Kenya and markets its products globally.
 smart monitoring products for off-grid energy including solar and biogas.
 Connected Energy is based in Scotland and markets its products globally.
 
-<a name="INENSUS">[INENSUS](https://www.inensus.com/) Software developer and consultancy focused on management software
+<a name="INENSUS"></a>[INENSUS](https://www.inensus.com/) Software developer and consultancy focused on management software
 for decentralized utilities. Offers 
 [Micropowermanager](https://github.com/inensus/MPManager) software as open source with repo on GitHub.
 [Based in Germany](https://www.google.com/maps/place/INENSUS+GmbH/@51.899282,10.432949,6z/data=!4m5!3m4!1s0x0:0xf4b2dc3baf4f2119!8m2!3d51.899274!4d10.4329631?hl=en-US).
@@ -138,14 +162,15 @@ and its primary markets are in South Asia.
 
 <a name="TFEEnergy"></a>[TFE Energy GmbH](https://www.tfe.energy/) Consultancy focused
 on mini-grid markets. 
-[Based in Germany](https://www.google.com/search?q=TFE+Energy+Franz+joseph+strasse+10+munich&newwindow=1&ei=LbC-YKj-LMGX-gTyiqSoBg&oq=TFE+Energy+Franz+joseph+strasse+10+munich&gs_lcp=Cgdnd3Mtd2l6EAM6BAghEApQhkdYvWxgvW9oA3AAeACAAWqIAdIJkgEEMTIuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjoyJfe2obxAhXBi54KHXIFCWUQ4dUDCA4&uact=5).
+[Based in Germany](https://www.google.com/maps/place/TFE+Energy+GmbH/@48.1578401,11.5813875,18z/data=!3m1!4b1!4m5!3m4!1s0x479e7531d997732b:0x5a528a807e09f6e6!8m2!3d48.157779!4d11.5824733).
 
-<a name="Winch">[Winch Energy](https://www.winchenergy.com/): Winch Energy is a global, off-grid 
+<a name="Winch"></a>[Winch Energy](https://www.winchenergy.com/): Winch Energy is a global, off-grid 
 energy developer and technology designer and integrator. Focus on Renewable Energy and Energy 
 Efficiency projects in Europe, Africa, Latin America and Asia. Products include 
 [Remote Power Unit (RPU)](https://www.winchenergy.com/what-we-do) 
 ([photo](https://africamda.org/wp-content/uploads/2020/07/winch-energy-interview-pic-2.jpg)),
 a containerized turn-key solar minigrid.
+
 
 <a name="Xpower"></a>[Xpower](https://www.xpowerinc.com/): A US company focussed on 
 developing technologies which enable distributed utilities across the 
