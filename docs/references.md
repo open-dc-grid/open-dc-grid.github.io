@@ -47,6 +47,13 @@ focused on microgrids and distributed energy resources.
 
 ## Off-Grid Energy Access Organizations and Initiatives
 
+<a name="AMDA">[Africa Development Bank](https://www.afdb.org/en) Finance organization focused on
+economic development and social progress in Africa. Offers the
+[Green Mini-Grid Help Desk](https://greenminigrid.afdb.org/) a resource that offers a wide
+variety of publications relating to mini-grids from technical advice, finance, commissioning and more.
+
+<a name="AMDA"></a>[Africa Minigrid Developers Association](https://africamda.org/) A trade association focused on minigrids for Africa.
+
 <a name="CLASP"></a>[CLASP](https://clasp.ngo/): An NGO focused on energy efficient appliances
 to minimize climate change and provide clean energy access. Closely affiliated with other organizations in this section
 including [Efficiency For Access](#EfficiencyForAccess) and [Verasol](#Verasol).
@@ -74,6 +81,11 @@ and [Lighting Asia](https://www.lightingglobal.org/where-we-work/lighting-asia/)
 hardware and associated software accessible via open source that can be combined to create power systems over a wide range of power levels
 including both DC and AC.
 
+<a name="USAID">[USAID Toolkit](https://www.usaid.gov/energy/mini-grids) The 
+[US Agency for International Development](https://www.usaid.gov/)
+[Energy Section](https://www.usaid.gov/energy) offers a tool kit of publications
+that addresses many aspects of mini-grid development including technical and finance.
+
 <a name="Verasol"></a>[Verasol](https://verasol.org/): Organization focused on testing and quality assurance for the off-grid
 energy market, spun-off from [Lighting Global](#LightingGlobal). Products are tested against
 [IEC TS 62257-9-8](https://webstore.iec.ch/publication/62431), quality standards for pico-solar products and SHS kits
@@ -93,6 +105,11 @@ Angaza is based in the US and Kenya and markets its products globally.
 <a name="ConnectedEnergy"></a>[Connected Energy](https://connectedenergy.net): Makes
 smart monitoring products for off-grid energy including solar and biogas.
 Connected Energy is based in Scotland and markets its products globally.
+
+<a name="INENSUS">[INENSUS](https://www.inensus.com/) Software developer and consultancy focused on management software
+for decentralized utilities. Offers 
+[Micropowermanager](https://github.com/inensus/MPManager) software as open source with repo on GitHub.
+[Based in Germany](https://www.google.com/maps/place/INENSUS+GmbH/@51.899282,10.432949,6z/data=!4m5!3m4!1s0x0:0xf4b2dc3baf4f2119!8m2!3d51.899274!4d10.4329631?hl=en-US).
 
 <a name="LibreSolar"></a>[Libre Solar](https://libre.solar/): A company founded by 
 Open DC Grid co-founder [Martin Jäger](participants#MartinJäger) that makes PV charge controllers,
@@ -118,6 +135,17 @@ Solaris Offgrid is based in London and markets its products globally.
 into smart peer-to-peer microgrids that allows consumers to monetize excess solar energy by
 sharing it with neighbors utilizing mobile money. Solshare is based in Bangladesh
 and its primary markets are in South Asia.
+
+<a name="TFEEnergy"></a>[TFE Energy GmbH](https://www.tfe.energy/) Consultancy focused
+on mini-grid markets. 
+[Based in Germany](https://www.google.com/search?q=TFE+Energy+Franz+joseph+strasse+10+munich&newwindow=1&ei=LbC-YKj-LMGX-gTyiqSoBg&oq=TFE+Energy+Franz+joseph+strasse+10+munich&gs_lcp=Cgdnd3Mtd2l6EAM6BAghEApQhkdYvWxgvW9oA3AAeACAAWqIAdIJkgEEMTIuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjoyJfe2obxAhXBi54KHXIFCWUQ4dUDCA4&uact=5).
+
+<a name="Winch">[Winch Energy](https://www.winchenergy.com/): Winch Energy is a global, off-grid 
+energy developer and technology designer and integrator. Focus on Renewable Energy and Energy 
+Efficiency projects in Europe, Africa, Latin America and Asia. Products include 
+[Remote Power Unit (RPU)](https://www.winchenergy.com/what-we-do) 
+([photo](https://africamda.org/wp-content/uploads/2020/07/winch-energy-interview-pic-2.jpg)),
+a containerized turn-key solar minigrid.
 
 <a name="Xpower"></a>[Xpower](https://www.xpowerinc.com/): A US company focussed on 
 developing technologies which enable distributed utilities across the 
