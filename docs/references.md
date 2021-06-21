@@ -46,7 +46,7 @@ operating under the umbrella of the [Linux Foundation](https://www.linuxfoundati
 focused on microgrids and distributed energy resources.
 
 ## Off-Grid Energy Access Organizations and Initiatives
-<a name="AFDB"></a>[Africa Development Bank](https://www.afdb.org/en) Finance organization focused on
+<a name="AFDB"></a>[African Development Bank](https://www.afdb.org/en) Finance organization focused on
 economic development and social progress in Africa. Offers the
 [Green Mini-Grid Help Desk](https://greenminigrid.afdb.org/) a resource that offers a wide
 variety of publications relating to mini-grids from technical advice, finance, commissioning and more.
@@ -470,7 +470,6 @@ development on the [SMT32](#STM32) processors including a pinout configurator.
 that provides the OS platform for ODG's
 demonstration boards. It's 
 [main repository](https://github.com/zephyrproject-rtos/zephyr) is hosted on GitHub.
-
 
 
 
