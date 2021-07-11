@@ -10,13 +10,7 @@ editLink: true
 </center>
 
 ::: tip
-ODG gave an overview presentation on the project and our use of the 
-[Zephyr RTOS](https://www.zephyrproject.org/) in power systems at the 
-[LFEnergy Spring Summit](https://events.linuxfoundation.org/lf-energy-spring-summit/):
- 
-[Video recording](https://youtu.be/SWDM7YgT-pU) 
-
-[Presentation](https://static.sched.com/hosted_files/lfenergyspringsummit2021/9f/Gula%20and%20Jäger%20-%20ODG%20LFEnergy%20Spring%20Summit.pdf)
+The July meeting of the Open DC Grid project has been cancelled. Our next meeting will be Tuesday, August 10 at 1400 UTC.
 :::
 
 ## DC Microgrid
