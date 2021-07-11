@@ -4,6 +4,10 @@ editLink: true
 
 # Meetings
 
+::: tip
+The July meeting of the Open DC Grid project has been cancelled. Our next meeting will be Tuesday, August 10 at 1400 UTC.
+:::
+
 ## Regular web conference
 
 Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:00 UTC Apr - Oct, 15:00 UTC Nov - Mar).
