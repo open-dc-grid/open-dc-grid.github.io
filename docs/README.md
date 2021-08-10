@@ -10,7 +10,7 @@ editLink: true
 </center>
 
 ::: tip
-The July meeting of the Open DC Grid project has been cancelled. Our next meeting will be Tuesday, August 10 at 1400 UTC.
+Check out our new: [Simulator](https://jlgula.github.io)
 :::
 
 ## DC Microgrid
