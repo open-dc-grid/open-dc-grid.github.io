@@ -25,7 +25,7 @@ Further instructions are available on the Zoom web site:
 
 [Meeting Recording](https://www.dropbox.com/s/1y2ovkic9gr1jna/GMT20211012-140122_Recording_2560x1440.mp4?dl=0)
 
-[Tactical Microgrid Presentation](./MeetingMaterials/20211012ODGTMS.pdf)
+[Tactical Microgrid Presentation](./MeetingMaterials/20211012TMS.pdf)
 
 [ODG (James Gula) presentation](./MeetingMaterials/20211012ODGMeetingRev02.pdf)
 
