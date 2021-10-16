@@ -21,7 +21,15 @@ Further instructions are available on the Zoom web site:
 
 ## Content of previous meetings (most recent first)
 
-### 2021-06-08 Meeting
+### 2021-10-12 Meeting
+
+[Meeting Recording](https://www.dropbox.com/s/1y2ovkic9gr1jna/GMT20211012-140122_Recording_2560x1440.mp4?dl=0)
+
+[Tactical Microgrid Presentation](./MeetingMaterials/20211012ODGTMS.pdf)
+
+[ODG (James Gula) presentation](./MeetingMaterials/20211012ODGMeetingRev02.pdf)
+
+### 2021-08-10 Meeting
 
 [Meeting Recording](https://www.dropbox.com/s/n5pvqhjojrm7y1f/GMT20210810-140114_Recording_2560x1440.mp4?dl=0)
 
