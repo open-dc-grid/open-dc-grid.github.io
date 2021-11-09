@@ -21,6 +21,14 @@ Further instructions are available on the Zoom web site:
 
 ## Content of previous meetings (most recent first)
 
+### 2021-11-09 Meeting
+
+[Meeting Recording](https://www.dropbox.com/s/6cflhwjkdv9l0zr/GMT20211109-150259_Recording_2560x1440.mp4?dl=0)
+
+[Pirl Nigeria - Kobby Osei-Kusi](./MeetingMaterials/20211109Osei-KusiNigeria.pdf)
+
+[ODG (James Gula) presentation](./MeetingMaterials/20211109ODGMeetingRev02.pdf) 
+
 ### 2021-10-12 Meeting
 
 [Meeting Recording](https://www.dropbox.com/s/1y2ovkic9gr1jna/GMT20211012-140122_Recording_2560x1440.mp4?dl=0)
