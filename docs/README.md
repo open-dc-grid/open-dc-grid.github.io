@@ -10,7 +10,7 @@ editLink: true
 </center>
 
 ::: tip
-Check out our new: [Simulator](https://jlgula.github.io)
+The December ODG Project Meeting schedule for December 14 has been cancelled. Meetings with resume as usual on January 11.
 :::
 
 ## DC Microgrid
