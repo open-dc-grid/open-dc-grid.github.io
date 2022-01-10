@@ -5,7 +5,7 @@ editLink: true
 # Meetings
 
 ::: tip
-The December ODG Project Meeting schedule for December 14 has been cancelled. Meetings with resume as usual on January 11.
+The January ODG Project Meeting will January 11 at 1500UTC with an update on Polaris.
 :::
 
 ## Regular web conference
