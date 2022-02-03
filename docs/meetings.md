@@ -4,10 +4,6 @@ editLink: true
 
 # Meetings
 
-::: tip
-The January ODG Project Meeting will January 11 at 1500UTC with an update on Polaris.
-:::
-
 ## Regular web conference
 
 Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:00 UTC Apr - Oct, 15:00 UTC Nov - Mar).
@@ -24,6 +20,16 @@ Further instructions are available on the Zoom web site:
 [Joining a meeting by phone](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone).
 
 ## Content of previous meetings (most recent first)
+
+### 2022-01-11 Meeting
+
+[Meeting Recording](https://www.dropbox.com/s/vp7vke9vk2rkns6/GMT20220111-150301_Recording_2560x1440.mp4?dl=0)
+
+[ODG (James Gula) presentation](./MeetingMaterials/20220111ODGMeetingRev01.pdf) 
+
+### 2021-12-14 Meeting
+
+The December meeting was cancelled.
 
 ### 2021-11-09 Meeting
 
