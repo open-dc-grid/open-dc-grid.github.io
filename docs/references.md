@@ -17,7 +17,10 @@ This section is just getting started, filling more as we have the time and energ
 34 Press, 2014. Another good reference about the microgrids.
 
 ## Microgrid Architecture
-[*DC Local Power Distribution with Microgrids and Nanogrid*](https://drive.google.com/open?id=0B8B9XW6B7prlczMzOE1QWHFXNjA). Nordman, B, and K. Christensen, First International Conference on DC Microgrids, Atlanta, GA, June 2015. Bruce Nordman was an early advocate and innovator for the kinds of microgrids this project is working toward. [Bruce's website](http://nordman.lbl.gov/) is a trove of papers, talks and related material.
+
+<a name="Nordman"></a>[*DC Local Power Distribution with Microgrids and Nanogrid*](https://drive.google.com/open?id=0B8B9XW6B7prlczMzOE1QWHFXNjA).
+Nordman, B, and K. Christensen, First International Conference on DC Microgrids, Atlanta, GA, June 2015. 
+Bruce Nordman was an early advocate and innovator for the kinds of microgrids this project is working toward. [Bruce's website](http://nordman.lbl.gov/) is a trove of papers, talks and related material.
 
 <a name="LPD"></a>[*A Simulation of Local Power Distribution Control Strategies*](https://drive.google.com/file/d/0B8B9XW6B7prlRksyQk9TVl9tU3c/view). Nordman, B., K. Spears, A. Kahndkar, and M. Pezzola. 
 Second International Conference on DC Microgrids, Nurnburg, Germany, June 2017 - Contains a more detailed description of the LPD power protocols.
@@ -39,6 +42,7 @@ TMS is a standard for implementing microgrids developed by the US Army and the M
 focused on AC but they have plans to extend it to DC. The Army seems ambivalent about how open to make this standard.
 Internally, it is based on 
 [DDS (Data Distribution Service)](https://en.wikipedia.org/wiki/Data_Distribution_Service) middleware.
+
 ## Microgrid Activities and Publications
 
 <a name="LFEnergy"></a>[LFEnergy Microgrid SIG](https://wiki.lfenergy.org/display/HOME/Microgrids+SIG): 
@@ -52,7 +56,6 @@ focused on microgrids and distributed energy resources.
 ## DC Distribution Standards and Systems
 
 ### DC Distribution Standards
-
 <a name="CurrentOS"></a>[Current OS Foundation](https://currentos.foundation/) 
 The Foundation is dedicated to promoting Current OS, a microgrid protocol for DC power distribution invented by [DC Systems](#DCSystems) (now a part of [Schneider](#Schneider)).
 The web site claims to offer "free access to IP" but so far, it just describes the system via a series of web pages.
@@ -63,7 +66,7 @@ and data centers. It claims to be "open" but access to documents is restricted t
 
 <a name="IEEEP2030.10.1"></a>[IEEE P2030.10.1 Standard for Electricity Access Requirements with Safety Extra Low Voltage (SELV) DC for Tier ll and Tier lll of Energy Sector Management Assistance Program (ESMAP) Multi-tier Framework for Household Electricity Supply](https://standards.ieee.org/project/2030_10_1.html) An IEEE project to define household distribution of power at a nominal 48V. Based on [IS 16711](#IS16711).
 
-<a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://www.services.bis.gov.in:8071/php/BIS/bisconnect/pow/is_details?IDS=MjI3MTI%3D) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
+<a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%2016711&id=22856) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
 
 
 ### DC Distribution Vendor Systems
@@ -71,7 +74,7 @@ and data centers. It claims to be "open" but access to documents is restricted t
 These products are designed to work with the [Current OS](#CurrentOS) architecture. DC Systems was acquired by [Schneider](#Schneider) in 2021 and is now
 a subsidiary of [Schneider](#Schneider).
 
-<a name="Domatic">[Domatic.io](https://www.domatic.io/) A system for the distribution of ELVDC (~48V)
+<a name="Domatic"></a>[Domatic.io](https://www.domatic.io/) A system for the distribution of ELVDC (~48V)
 power for commercial and household applications such as lighting, fans etc. utilizing Class 2 wiring
 and incorporating [HD-PLC](#HD-PLC) for communicating between a power hub and application nodes.
 
@@ -307,7 +310,7 @@ developed by Libre.Solar and used for testing by ODG include CAN bus functionali
 HD-PLC is a profile of [IEEE 1901a-2019](#IEEE-1901) managed by the 
 [HD-PLC Alliance](https://hd-plc.org/), a vendor trade organization.
 HD-PLC incorporates "HD-PLC Complete" which is basically the IEEE version and
-"HD-PLC Multihop" that includes hopping technology described in ITU-T G.9905 to extend
+"HD-PLC Multihop" that includes hopping technology described in [ITU-T G.9905](https://hd-plc.org/standards/itu-t-g-9905/) to extend
 the range via retransmitting nodes.
 
 <a name="IEEE-1901"></a>[IEEE 1901-2010 Standard for Broadband over Power Line Networks: Medium Access Control and Physical Layer Specifications](https://en.wikipedia.org/wiki/IEEE_1901):
