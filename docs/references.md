@@ -29,12 +29,16 @@ The [specification](https://github.com/hyphae/apis-main/blob/master/doc/en/apis-
 and code are available on the [Hyphae GitHub Site](https://github.com/hyphae).
 
 ## Related Microgrid Standards
-<a name="IEEEP2030.10"></a>[IEEE P2030.10 Draft Trial-Use Standard for DC Microgrids for Rural and Remote Electricity Access Applications](https://site.ieee.org/sagroups-2030-10/) Describes the requirements to implement an unmanaged grid operating at a nominal 48V. Includes external wiring recommendations and safety concerns. One of the standards this project is attempting to harmonize with. P2030.10, in turn, is harmonized with [ISO 21780](#ISO21780).
+<a name="IEEEP2030.10"></a>[IEEE 2030.10-2021 Standard for DC Microgrids for Rural and Remote Electricity 
+Access Applications](https://standards.ieee.org/ieee/2030.10/10742/) Describes the requirements to implement an unmanaged grid 
+operating at a nominal 48V. Includes external wiring recommendations and safety concerns. This project 
+is harmonized with [ISO 21780](#ISO21780) for 48V automotive electrics.
 
-[IEEE P2030.10.1 Standard for Electricity Access Requirements with Safety Extra Low Voltage (SELV) DC for Tier ll and Tier lll of Energy Sector Management Assistance Program (ESMAP) Multi-tier Framework for Household Electricity Supply](https://standards.ieee.org/project/2030_10_1.html) An IEEE project to define household distribution of power at a nominal 48V. Based on [IS 16711](#IS16711).
-
-<a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://www.services.bis.gov.in:8071/php/BIS/bisconnect/pow/is_details?IDS=MjI3MTI%3D) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
-
+<a name="TMS"></a>[Tactical Microgrid Standard](https://d2vkrkwbbxbylk.cloudfront.net/sites/default/files/tms-omg-mars-20190319-release-v2_sm.pdf)
+TMS is a standard for implementing microgrids developed by the US Army and the MIT Lincoln Laboratory. Currently it is
+focused on AC but they have plans to extend it to DC. The Army seems ambivalent about how open to make this standard.
+Internally, it is based on 
+[DDS (Data Distribution Service)](https://en.wikipedia.org/wiki/Data_Distribution_Service) middleware.
 ## Microgrid Activities and Publications
 
 <a name="LFEnergy"></a>[LFEnergy Microgrid SIG](https://wiki.lfenergy.org/display/HOME/Microgrids+SIG): 
@@ -44,6 +48,36 @@ operating under the umbrella of the [Linux Foundation](https://www.linuxfoundati
 
 <a name="MicrogridKnowledge"></a>[Microgrid Knowledge](https://microgridknowledge.com) An online newsletter
 focused on microgrids and distributed energy resources.
+
+## DC Distribution Standards and Systems
+
+### DC Distribution Standards
+
+<a name="CurrentOS"></a>[Current OS Foundation](https://currentos.foundation/) 
+The Foundation is dedicated to promoting Current OS, a microgrid protocol for DC power distribution invented by [DC Systems](#DCSystems) (now a part of [Schneider](#Schneider)).
+The web site claims to offer "free access to IP" but so far, it just describes the system via a series of web pages.
+
+<a name="EMerge"></a>[EMerge Alliance](https://www.emergealliance.org/) EMerge is an industry association
+focused on promoting the use of DC in various forms of power distribution including lighting systems
+and data centers. It claims to be "open" but access to documents is restricted to members who pay to join.
+
+<a name="IEEEP2030.10.1"></a>[IEEE P2030.10.1 Standard for Electricity Access Requirements with Safety Extra Low Voltage (SELV) DC for Tier ll and Tier lll of Energy Sector Management Assistance Program (ESMAP) Multi-tier Framework for Household Electricity Supply](https://standards.ieee.org/project/2030_10_1.html) An IEEE project to define household distribution of power at a nominal 48V. Based on [IS 16711](#IS16711).
+
+<a name="IS16711"></a>[IS 16711:2017 48 V ELVDC distribution system - Guidelines](https://www.services.bis.gov.in:8071/php/BIS/bisconnect/pow/is_details?IDS=MjI3MTI%3D) A standard from the Bureau of Indian Standards for distribution of 48V inside a home with a maximum branch current of 5A. A presentation about the standard is avaiable [here](https://bis.org.in/other/ETD_SC/ETD_SC_Presentation_8.pdf).
+
+
+### DC Distribution Vendor Systems
+<a name="DCSystems"></a>[DC Systems](https://www.dc.systems/) Makes products for distribution of DC power at 350V and 700V.
+These products are designed to work with the [Current OS](#CurrentOS) architecture. DC Systems was acquired by [Schneider](#Schneider) in 2021 and is now
+a subsidiary of [Schneider](#Schneider).
+
+<a name="Domatic">[Domatic.io](https://www.domatic.io/) A system for the distribution of ELVDC (~48V)
+power for commercial and household applications such as lighting, fans etc. utilizing Class 2 wiring
+and incorporating [HD-PLC](#HD-PLC) for communicating between a power hub and application nodes.
+
+<a name="Schneider"></a>[Schneider Electric](https://www.se.com/ww/en/). Schneider is a global vendor of
+power systems components including microgrids. They have an extensive catalog of DC devices including circuit breakers, switches etc.
+
 
 ## Off-Grid Energy Access Organizations and Initiatives
 <a name="AFDB"></a>[African Development Bank](https://www.afdb.org/en) Finance organization focused on
@@ -118,7 +152,7 @@ derived from [Lighting Global](#LightingGlobal) testing procedures. Products tha
 <a name="Wind Empowerment"></a>[Wind Empowerment](https://windempowerment.org/): Wind Empowerment is an association for the 
 development of locally manufactured small wind turbines for sustainable rural electrification. 
 
-## Microgrid Vendors
+## Off-Grid Energy Access Vendors
 
 Companies currently offering products and services related to Open DC Grid:
 
@@ -228,6 +262,14 @@ The US Standard for an AC charging connector. [Wikipedia](https://en.wikipedia.o
 <a name="OpenCharge"></a>[Open Charge Alliance](https://www.openchargealliance.org/) An association of vendors
 promoting the Open Charge Point Protocol - an open standard for EV charging.
 
+### V2G - Vehicle to Grid
+V2G refers to using the batteries in a vehicle to provide power to a local microgrid or to the utility grid,
+the inverse of charging, which may be economically advantageous in some circumstances.
+
+<a name="V2GChargingProfile"></a>[SunSpec IEEE 2030.5 / SAE J3072 EV Charging 
+Profile](https://sunspec.org/sunspec-specifications-for-approval/) A profile of the [IEEE 2030.5](#IEEE2030-5) standard
+for power systems information management that is targeted toward V2G applications.
+
 ## Software Standards and Initiatives
 <a name="OpenAPI"></a>[OpenAPI Initiative](https://www.openapis.org/): A standard that
 allows the description of a remote API accessible through HTTP or HTTP-like protocols including 
@@ -260,6 +302,21 @@ have been informally adopted.
 An [older version of the standard](http://esd.cs.ucr.edu/webres/can20.pdf), 
 now superseded by the ISO version is available online. Prototype boards
 developed by Libre.Solar and used for testing by ODG include CAN bus functionality.
+
+<a name="HD-PLC"></a>[HD-PLC (High definition power line communications)](https://en.wikipedia.org/wiki/HD-PLC):
+HD-PLC is a profile of [IEEE 1901a-2019](#IEEE-1901) managed by the 
+[HD-PLC Alliance](https://hd-plc.org/), a vendor trade organization.
+HD-PLC incorporates "HD-PLC Complete" which is basically the IEEE version and
+"HD-PLC Multihop" that includes hopping technology described in ITU-T G.9905 to extend
+the range via retransmitting nodes.
+
+<a name="IEEE-1901"></a>[IEEE 1901-2010 Standard for Broadband over Power Line Networks: Medium Access Control and Physical Layer Specifications](https://en.wikipedia.org/wiki/IEEE_1901):
+A standard for communicating using power lines. The original version was based on FFT OFDM.
+In 2019, an amendment known as IEEE 1901a-2019 was added to support wavelet OFDM for higher data rates
+and longer range.
+Two related standards have been created by the same committee,
+IEEE 1901.1 which uses mid-frequency (< 12 MHz) OFDM and IEEE 1901.2 low frequency (< 500 kH) for use on
+wide area power line networks. 
 
 <a name="LIN"></a>[LIN - Local Interconnect Network](https://en.wikipedia.org/wiki/Local_Interconnect_Network):
 A system for transmitting low-speed data using flat (not twisted pair) wiring. LIN was original designed
