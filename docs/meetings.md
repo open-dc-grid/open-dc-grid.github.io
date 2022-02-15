@@ -21,6 +21,14 @@ Further instructions are available on the Zoom web site:
 
 ## Content of previous meetings (most recent first)
 
+### 2022-02-08 Meeting
+
+[Meeting Recording](https://www.dropbox.com/s/w0rznet9tli9gjw/GMT20220208-150236_Recording_2560x1440.mp4?dl=0)
+
+[Domatic.io (Jim Baldwin)](./MeetingMaterials/20220208DomaticPresentation.pdf)
+
+[ODG (James Gula) presentation](./MeetingMaterials/20220208ODGMeetingRev01.pdf) 
+
 ### 2022-01-11 Meeting
 
 [Meeting Recording](https://www.dropbox.com/s/vp7vke9vk2rkns6/GMT20220111-150301_Recording_2560x1440.mp4?dl=0)
