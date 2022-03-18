@@ -81,6 +81,15 @@ and incorporating [HD-PLC](#HD-PLC) for communicating between a power hub and ap
 <a name="Schneider"></a>[Schneider Electric](https://www.se.com/ww/en/). Schneider is a global vendor of
 power systems components including microgrids. They have an extensive catalog of DC devices including circuit breakers, switches etc.
 
+### Software Defined Power Systems
+<a name="OwnTech"></a>[OwnTech](https://www.owntech.org/): An initiative under 
+[CNRS](http://www.cnrs.fr/en) and [LAAS](https://www.laas.fr/public/en) to create a library of stackable and reprogrammable
+hardware and associated software accessible via open source that can be combined to create power systems over a wide range of power levels
+including both DC and AC. Includes a [software API](https://www.owntech.org/en/Owntech-Power-API-Core-Documentation/) for the modules.
+The code is available at the [OwnTech GitLab Repository](https://gitlab.laas.fr/owntech/power-api).
+
+<a name="MPLab"></a>[MPLab](https://mplab.ee.columbia.edu/): A [Columbia University](https://www.columbia.edu/) project
+to define software defined power systems and motors.
 
 ## Off-Grid Energy Access Organizations and Initiatives
 <a name="AFDB"></a>[African Development Bank](https://www.afdb.org/en) Finance organization focused on
@@ -128,11 +137,6 @@ Maintains a [database of products](https://www.lightingglobal.org/products/) tha
 The actual testing of these products has been spun off into a separate organization, [Verasol](#Verasol).
 Lighting Global has regional affiliates [Lighting Africa](#LightingAfrica)
 and [Lighting Asia](#LightingAsia).
-
-<a name="OwnTech"></a>[OwnTech](https://www.owntech.org/): An initiative under 
-[CNRS](http://www.cnrs.fr/en) and [LAAS](https://www.laas.fr/public/en) to create a library of stackable and reprogrammable
-hardware and associated software accessible via open source that can be combined to create power systems over a wide range of power levels
-including both DC and AC.
 
 <a name="RMI"></a>[RMI](https://rmi.org/): Rocky Mountain Institute (RMI) is an organization in the United States dedicated to research, publication, consulting, and 
 lecturing in the general field of sustainability, with a special focus on profitable innovations for energy and resource efficiency
@@ -328,6 +332,11 @@ ISO standards ([ISO-17987](https://www.iso.org/standard/61222.html)) that includ
 but good information about its electrical properties is available from semiconductor vendors who offer low-cost transceivers.
 ODG is primarily interested the use of these transceivers that implement the physical layer.
 
+<a name="LoRaWAN"></a>[LoRa](https://en.wikipedia.org/wiki/LoRa) A proprietary modulation technique for low-power
+wide-area communications. LoRa defines the physical layer and a protocol stack defining upper layers
+is referred to as LoRaWAN. The system is supported and promoted by an industry trade group, the
+[LoRa Alliance](https://lora-alliance.org/).
+
 <a name="TI-LIN"></a>[LIN Protocol and Physical Layer Requirements - TI SSLA383-2018](https://www.ti.com/lit/an/slla383/slla383.pdf):
 This TI application report provides good details about the LIN physical layer.
 
@@ -432,12 +441,14 @@ In the context of microgrids, the utility grid would ask the microgrid to reduce
 at the [point of common coupling](https://en.wikipedia.org/wiki/Microgrid#Point_of_common_coupling_%28PCC%29).
 The microgrid would then adjust its internal power flows to minimize consumption from the utility grid.
 
-<a name="ThingSet"></a>[ThingSet](https://libre.solar/thingset/): A transport agnostic protocol for the setting of things
-that encompasses layers 5-7 of the OSI model. It is a client server protocol where the values
+<a name="ThingSet"></a>[ThingSet](https://thingset.io/): A transport agnostic protocol for the setting of things.
+It is a client server protocol where the values
 are represented in [JSON](#JSON) for human readability or [CBOR](#CBOR) for machine consumption.
 Information is represented as a tree and can be retrieved via a query that can include an entire branch.
 Modifications use a mechanism similar to iPATCH as defined in [RFC 8132](https://tools.ietf.org/html/rfc8132),
-a potentially multi-valued but idempotent modification of leaf nodes.
+a potentially multi-valued but idempotent modification of leaf nodes. A full-stack architecture
+is defined including support for serial, [CAN](#CANbus) and [LoRaWAN](#LoRaWAN) physical layers.
+Code is available at the [ThingSet GitHub repository](https://github.com/ThingSet).
 
 ## Embedded Systems, Development Tools and Firmware
 
