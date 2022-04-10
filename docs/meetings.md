@@ -4,6 +4,11 @@ editLink: true
 
 # Meetings
 
+::: tip
+The ODG project meeting scheduled for April 12 has been cancelled. Meetings will resume as normal on May 10.
+:::
+
+
 ## Regular web conference
 
 Our regular conference call is the 2nd Tuesday of each month at 7AM Pacific (14:00 UTC Apr - Oct, 15:00 UTC Nov - Mar).

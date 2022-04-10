@@ -9,6 +9,11 @@ editLink: true
 
 </center>
 
+::: tip
+The ODG project meeting scheduled for April 12 has been cancelled. Meetings will resume as normal on May 10.
+:::
+
+
 ## DC Microgrid
 The Open DC Grid is a microgrid architecture to permit devices to exchange electric power using DC (direct current). The architecture is defined by the [Open DC Grid Standard](./standard), a document than can be freely accessed and used by anyone at no charge.
 The architecture defined by the standard permits devices to be connected using several kinds of link technology but the most commonly used link is an electrical bus operating at a nominal 48 V.
