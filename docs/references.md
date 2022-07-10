@@ -121,7 +121,10 @@ Industry association for vendors participating in the off-grid solar industry.
 Publishes market surveys and coordinates industry standards for interoperablity and quality assurance.
 In cooperation with [Lighting Global](#LightingGlobal), publishes its biannual 
 [Global Off-Grid Market Sales Report](https://www.gogla.org/global-off-grid-solar-market-report) 
-that provides a detailed breakdown of off-grid market sales
+that provides a detailed breakdown of off-grid market sales. In an attempt to
+create some standardization of 12V appliances, GOGLA has published
+[The Connect Initiative](https://www.gogla.org/resources/the-connect-initiative),
+a recommendation for connectors and electrical requirements.
 
 <a name="LightingAfrica"></a>[Lighting Africa](https://www.lightingafrica.org/): 
 World Bank initiative to promote off-grid lighting and electricity specifically focused on sub-Saharan Africa.
