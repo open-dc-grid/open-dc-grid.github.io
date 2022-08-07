@@ -10,7 +10,7 @@ editLink: true
 </center>
 
 ::: tip
-The ODG project meeting scheduled for July 12 has been cancelled. Meetings will resume as normal on August 9.
+The ODG project meeting scheduled for August 9 has been cancelled. Meetings will resume on September 13.
 :::
 
 
