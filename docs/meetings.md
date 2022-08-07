@@ -5,7 +5,7 @@ editLink: true
 # Meetings
 
 ::: tip
-The ODG project meeting scheduled for July 12 has been cancelled. Meetings will resume as normal on August 9.
+The ODG project meeting scheduled for August 9 has been cancelled. Meetings will resume on September 13.
 :::
 
 
@@ -25,6 +25,10 @@ Further instructions are available on the Zoom web site:
 [Joining a meeting by phone](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone).
 
 ## Content of previous meetings (most recent first)
+### 2022-08-09
+
+The August meeting was cancelled.
+
 ### 2022-07-12 Meeting
 
 The July meeting was cancelled.
