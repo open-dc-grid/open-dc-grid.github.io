@@ -10,7 +10,7 @@ editLink: true
 </center>
 
 ::: tip
-The ODG project meeting scheduled for August 9 has been cancelled. Meetings will resume on September 13.
+The ODG project has been suspended until further notice. Email us at <a href="mailto:jlgula@papugh.com" target="_top">jlgula@papugh.com</a> if you would like to notified if and when we resume activities.
 :::
 
 

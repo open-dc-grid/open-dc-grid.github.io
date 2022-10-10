@@ -5,7 +5,9 @@ editLink: true
 # Meetings
 
 ::: tip
-The ODG project meeting scheduled for August 9 has been cancelled. Meetings will resume on September 13.
+The ODG project and associated meetings have been suspended until further notice. 
+Email us at <a href="mailto:jlgula@papugh.com" target="_top">jlgula@papugh.com</a> 
+if you would like to notified if and when we resume activities.
 :::
 
 
@@ -25,6 +27,13 @@ Further instructions are available on the Zoom web site:
 [Joining a meeting by phone](https://support.zoom.us/hc/en-us/articles/201362663-Joining-a-meeting-by-phone).
 
 ## Content of previous meetings (most recent first)
+
+### 2022-09-13
+
+[Meeting Recording](https://www.dropbox.com/s/o49b4qa4e10s0bf/GMT20220913-140314_Recording_1676x874.mp4?dl=0)
+
+[ODG (James Gula) presentation](./MeetingMaterials/20220913ODGMeetingRev01.pdf)
+
 ### 2022-08-09
 
 The August meeting was cancelled.
